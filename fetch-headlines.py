@@ -11,6 +11,7 @@ import sys
 import time
 import random
 import requests
+import re
 from bs4 import BeautifulSoup
 from openai import OpenAI
 from tqdm import tqdm
@@ -18,9 +19,10 @@ from urllib.parse import urlparse
 from dotenv import load_dotenv
 
 # Configuration
-MAX_RETRIES = 3
+MAX_RETRIES = 1
 RETRY_DELAY = 2  # seconds
-REQUEST_TIMEOUT = 10  # seconds
+REQUEST_TIMEOUT = 8  # seconds
+SAVE_INTERVAL = 10  # Save progress every N startups
 USER_AGENTS = [
     'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36',
     'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15',
@@ -154,64 +156,188 @@ def extract_headline_with_openai(html_content, startup_name, url):
         print(f"  OpenAI API error: {str(e)}")
         return None
 
+def sanitize_headline(headline):
+    """Sanitize headline text by removing unwanted characters and formatting."""
+    if not headline:
+        return None
+
+    # Fix Unicode escape sequences
+    try:
+        # First try to decode any Unicode escape sequences
+        if '\\u' in headline:
+            headline = headline.encode().decode('unicode_escape')
+
+        # For JSON-loaded strings that already have Unicode characters
+        # but might still have some escape sequences
+        headline = json.loads(f'"{headline}"') if '\\u' in json.dumps(headline) else headline
+
+        # Replace common problematic Unicode characters with their ASCII equivalents
+        replacements = {
+            '\u2018': "'",  # Left single quotation mark
+            '\u2019': "'",  # Right single quotation mark
+            '\u201c': '"',  # Left double quotation mark
+            '\u201d': '"',  # Right double quotation mark
+            '\u2013': '-',  # En dash
+            '\u2014': '--', # Em dash
+            '\u00a0': ' ',  # Non-breaking space
+            '\u00e2\u0080\u009c': '"',  # Left double quotation mark (encoded)
+            '\u00e2\u0080\u009d': '"',  # Right double quotation mark (encoded)
+            '\u00e2\u0080\u0099': "'",  # Right single quotation mark (encoded)
+            '\u00e2\u0080\u0098': "'",  # Left single quotation mark (encoded)
+        }
+
+        for old, new in replacements.items():
+            headline = headline.replace(old, new)
+
+        # Keep accented characters and other common non-ASCII characters
+        # We don't need to replace these as they're valid and readable
+
+        # Keep emojis as they are
+
+    except Exception as e:
+        # If any error occurs during Unicode handling, just continue with the original
+        print(f"  Warning: Unicode handling error: {str(e)}")
+
+    # Fix spacing issues
+    # Replace multiple spaces with a single space
+    sanitized = re.sub(r'\s+', ' ', headline)
+
+    # Fix spacing around punctuation
+    sanitized = re.sub(r'\s+([,.!?:;])', r'\1', sanitized)
+
+    # Add space after punctuation if it's followed by a letter
+    sanitized = re.sub(r'([,.!?:;])([a-zA-Z])', r'\1 \2', sanitized)
+
+    # Remove common unwanted prefixes
+    prefixes_to_remove = [
+        "Welcome to ", "Home - ", "Home | ", "Homepage - ",
+        "Official Website | ", "Official Website - ", "Official Website: "
+    ]
+    for prefix in prefixes_to_remove:
+        if sanitized.startswith(prefix):
+            sanitized = sanitized[len(prefix):]
+
+    # Remove common unwanted suffixes
+    suffixes_to_remove = [
+        " | Home", " - Home", " | Official Website", " - Official Website"
+    ]
+    for suffix in suffixes_to_remove:
+        if sanitized.endswith(suffix):
+            sanitized = sanitized[:-len(suffix)]
+
+    # Truncate if too long (over 100 characters)
+    if len(sanitized) > 100:
+        sanitized = sanitized[:97] + "..."
+
+    return sanitized.strip()
+
 def process_startups(input_file='startups.json', output_file='startups.json'):
     """Process startups and fetch headlines."""
-    startups = load_startups(input_file)
+    try:
+        startups = load_startups(input_file)
 
-    # Count startups without headlines
-    startups_without_headlines = [s for s in startups if 'headline' not in s]
-    total_to_process = len(startups_without_headlines)
+        # Count startups without headlines
+        startups_without_headlines = [s for s in startups if 'headline' not in s]
+        total_to_process = len(startups_without_headlines)
 
-    if total_to_process == 0:
-        print("All startups already have headlines. Nothing to do.")
-        return
+        # Count startups with headlines (for sanitizing)
+        startups_with_headlines = [s for s in startups if 'headline' in s]
+        total_to_sanitize = len(startups_with_headlines)
 
-    print(f"Found {total_to_process} startups without headlines. Starting processing...")
+        print(f"Found {total_to_process} startups without headlines and {total_to_sanitize} with headlines.")
 
-    # Process startups without headlines
-    processed_count = 0
-    success_count = 0
+        if total_to_process == 0 and total_to_sanitize == 0:
+            print("No startups to process. Nothing to do.")
+            return
 
-    for startup in tqdm(startups, desc="Processing startups"):
-        # Skip if headline already exists
-        if 'headline' in startup:
-            continue
+        # Process startups
+        processed_count = 0
+        success_count = 0
+        sanitized_count = 0
 
-        processed_count += 1
-        startup_name = startup['startup']
-        url = startup['maker']
+        for startup in tqdm(startups, desc="Processing startups"):
+            try:
+                startup_name = startup['startup']
 
-        print(f"\nProcessing {startup_name} ({url})...")
+                # Check if headline already exists
+                if 'headline' in startup:
+                    # Sanitize existing headline
+                    original_headline = startup['headline']
+                    sanitized_headline = sanitize_headline(original_headline)
 
-        # Fetch website content
-        html_content = fetch_website_content(url)
+                    if sanitized_headline != original_headline:
+                        startup['headline'] = sanitized_headline
+                        sanitized_count += 1
+                        print(f"\nSanitized headline for {startup_name}:")
+                        print(f"  Original: {original_headline}")
+                        print(f"  Sanitized: {sanitized_headline}")
 
-        if html_content:
-            # Try to extract headline with BeautifulSoup
-            headline = extract_headline_with_bs4(html_content)
+                        # Save after each sanitization
+                        save_startups(startups, output_file)
+                        print(f"  ✓ Saved progress to {output_file}")
 
-            # If BeautifulSoup fails, try OpenAI
-            if not headline or len(headline) < 5:
-                print("  BeautifulSoup extraction failed or returned very short headline. Trying OpenAI...")
-                headline = extract_headline_with_openai(html_content, startup_name, url)
+                    continue
 
-            if headline:
-                # Add headline to startup data
-                startup['headline'] = headline
-                success_count += 1
-                print(f"  ✓ Found headline: {headline}")
-            else:
-                print(f"  ✗ Failed to extract headline")
-        else:
-            print(f"  ✗ Failed to fetch website content")
+                processed_count += 1
+                url = startup['url']  # Use the 'url' field instead of 'maker'
 
-    # Save updated data
-    save_startups(startups, output_file)
+                print(f"\nProcessing {startup_name} ({url})...")
 
-    print(f"\nProcessing complete!")
-    print(f"Processed {processed_count} startups without headlines")
-    print(f"Successfully extracted {success_count} headlines")
-    print(f"Failed to extract {processed_count - success_count} headlines")
+                # Fetch website content
+                html_content = fetch_website_content(url)
+
+                if html_content:
+                    # Try to extract headline with BeautifulSoup
+                    headline = extract_headline_with_bs4(html_content)
+
+                    # If BeautifulSoup fails, try OpenAI
+                    if not headline or len(headline) < 5:
+                        print("  BeautifulSoup extraction failed or returned very short headline. Trying OpenAI...")
+                        headline = extract_headline_with_openai(html_content, startup_name, url)
+
+                    if headline:
+                        # Sanitize and add headline to startup data
+                        sanitized_headline = sanitize_headline(headline)
+                        startup['headline'] = sanitized_headline
+                        success_count += 1
+                        print(f"  ✓ Found headline: {sanitized_headline}")
+
+                        # Save after each successful headline extraction
+                        save_startups(startups, output_file)
+                        print(f"  ✓ Saved progress to {output_file}")
+                    else:
+                        print(f"  ✗ Failed to extract headline")
+                else:
+                    print(f"  ✗ Failed to fetch website content")
+
+            except Exception as e:
+                print(f"  ✗ Error processing {startup.get('startup', 'unknown startup')}: {str(e)}")
+                # Continue with the next startup
+                continue
+
+        # Final save
+        save_startups(startups, output_file)
+
+        print(f"\nProcessing complete!")
+        print(f"Processed {processed_count} startups without headlines")
+        print(f"Successfully extracted {success_count} headlines")
+        print(f"Failed to extract {processed_count - success_count} headlines")
+        print(f"Sanitized {sanitized_count} existing headlines")
+
+    except KeyboardInterrupt:
+        print("\n\nProcess interrupted by user. Saving current progress...")
+        save_startups(startups, output_file)
+        print(f"Saved progress to {output_file}")
+        sys.exit(1)
+    except Exception as e:
+        print(f"\n\nAn unexpected error occurred: {str(e)}")
+        print("Attempting to save current progress...")
+        try:
+            save_startups(startups, output_file)
+            print(f"Saved progress to {output_file}")
+        except Exception as save_error:
+            print(f"Failed to save progress: {str(save_error)}")
+        sys.exit(1)
 
 if __name__ == "__main__":
     # Check if OPENAI_API_KEY is set

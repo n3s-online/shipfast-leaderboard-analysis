@@ -863,7 +863,7 @@
       "Be",
       "Back"
     ],
-    "phraseType": "statement",
+    "phraseType": "question",
     "focus": "features",
     "usesStats": false
   },
@@ -901,21 +901,7 @@
     "startup": "Mystartup",
     "url": "https://x.com/indieshatau",
     "revenue": 7188,
-    "maker": "https://x.com/indieshatau",
-    "headline": "JavaScript is not available.",
-    "language": "English",
-    "sentiment_analysis": {
-      "sentiment": "Neutral",
-      "negative": 0.0,
-      "neutral": 1.0,
-      "positive": 0.0,
-      "compound": 0.0
-    },
-    "benefitKeywords": [],
-    "actionVerbs": [],
-    "phraseType": "statement",
-    "focus": "features",
-    "usesStats": false
+    "maker": "https://x.com/indieshatau"
   },
   {
     "rank": 42,

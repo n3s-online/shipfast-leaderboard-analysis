@@ -449,7 +449,7 @@
     ],
     "phraseType": "statement",
     "focus": "benefit",
-    "usesStats": false,
+    "usesStats": true,
     "sentiment_analysis": {
       "sentiment": "Negative",
       "negative": 0.306,

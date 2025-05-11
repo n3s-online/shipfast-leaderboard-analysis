@@ -107,12 +107,9 @@ No fluff, just direct value
 ### Tweet 13
 Takeaways from analyzing 100 startup headlines making $2.7M+ in revenue:
 
-1️⃣ Neutral-positive tone wins
-2️⃣ Statements > questions
-3️⃣ Simple & specific > clever
-4️⃣ Statistics rarely appear (and underperform)
-
 The best headlines are clear promises delivered with confidence.
+
+![Takeaways](visualizations/takeaways.png)
 
 ### Tweet 14
 I took the top 25 headlines and used them to set up a multi-shot prompt to generate headlines for landing pages for all of the 'Request For Startup' ideas from Y Combinator.

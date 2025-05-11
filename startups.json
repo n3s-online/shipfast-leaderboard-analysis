@@ -7,13 +7,6 @@
     "maker": "https://x.com/shugert",
     "headline": "Let Our Shopify Experts Solve Your Biggest Store Challenges",
     "language": "English",
-    "sentiment_analysis": {
-      "sentiment": "Positive",
-      "negative": 0.0,
-      "neutral": 0.693,
-      "positive": 0.307,
-      "compound": 0.2732
-    },
     "benefitKeywords": [
       "solve",
       "biggest",
@@ -22,7 +15,14 @@
     "actionVerbs": [],
     "phraseType": "statement",
     "focus": "benefit",
-    "usesStats": false
+    "usesStats": false,
+    "sentiment_analysis": {
+      "sentiment": "Positive",
+      "negative": 0.0,
+      "neutral": 0.693,
+      "positive": 0.307,
+      "compound": 0.2732
+    }
   },
   {
     "rank": 2,
@@ -40,13 +40,6 @@
     "maker": "https://x.com/iamfra5er",
     "headline": "Build a bootstrapped, profitable database product",
     "language": "English",
-    "sentiment_analysis": {
-      "sentiment": "Positive",
-      "negative": 0.0,
-      "neutral": 0.58,
-      "positive": 0.42,
-      "compound": 0.4404
-    },
     "benefitKeywords": [
       "profitable"
     ],
@@ -55,7 +48,14 @@
     ],
     "phraseType": "statement",
     "focus": "features",
-    "usesStats": false
+    "usesStats": false,
+    "sentiment_analysis": {
+      "sentiment": "Positive",
+      "negative": 0.0,
+      "neutral": 0.58,
+      "positive": 0.42,
+      "compound": 0.4404
+    }
   },
   {
     "rank": 4,
@@ -65,13 +65,6 @@
     "maker": "https://x.com/martindonadieu",
     "headline": "Instant updates for Capacitor",
     "language": "English",
-    "sentiment_analysis": {
-      "sentiment": "Neutral",
-      "negative": 0.0,
-      "neutral": 1.0,
-      "positive": 0.0,
-      "compound": 0.0
-    },
     "benefitKeywords": [
       "Instant",
       "updates"
@@ -79,7 +72,14 @@
     "actionVerbs": [],
     "phraseType": "statement",
     "focus": "features",
-    "usesStats": false
+    "usesStats": false,
+    "sentiment_analysis": {
+      "sentiment": "Neutral",
+      "negative": 0.0,
+      "neutral": 1.0,
+      "positive": 0.0,
+      "compound": 0.0
+    }
   },
   {
     "rank": 5,
@@ -89,18 +89,18 @@
     "maker": "https://x.com/shugert",
     "headline": "Shopify Experts in Spain",
     "language": "English",
+    "benefitKeywords": [],
+    "actionVerbs": [],
+    "phraseType": "statement",
+    "focus": "features",
+    "usesStats": false,
     "sentiment_analysis": {
       "sentiment": "Neutral",
       "negative": 0.0,
       "neutral": 1.0,
       "positive": 0.0,
       "compound": 0.0
-    },
-    "benefitKeywords": [],
-    "actionVerbs": [],
-    "phraseType": "statement",
-    "focus": "features",
-    "usesStats": false
+    }
   },
   {
     "rank": 6,
@@ -110,13 +110,6 @@
     "maker": "https://x.com/Vexoa1",
     "headline": "Innovative web solutions crafted in the heart of London.",
     "language": "English",
-    "sentiment_analysis": {
-      "sentiment": "Positive",
-      "negative": 0.0,
-      "neutral": 0.603,
-      "positive": 0.397,
-      "compound": 0.5574
-    },
     "benefitKeywords": [
       "Innovative",
       "crafted"
@@ -124,7 +117,14 @@
     "actionVerbs": [],
     "phraseType": "statement",
     "focus": "features",
-    "usesStats": false
+    "usesStats": false,
+    "sentiment_analysis": {
+      "sentiment": "Positive",
+      "negative": 0.0,
+      "neutral": 0.603,
+      "positive": 0.397,
+      "compound": 0.5574
+    }
   },
   {
     "rank": 7,
@@ -132,15 +132,8 @@
     "url": "https://www.tribesocial.io/",
     "revenue": 89184,
     "maker": "https://x.com/brucevanzyl",
-    "headline": "Imagine Saying, \"Download Our App\"",
+    "headline": "Imagine Saying, Download Our App",
     "language": "English",
-    "sentiment_analysis": {
-      "sentiment": "Neutral",
-      "negative": 0.0,
-      "neutral": 1.0,
-      "positive": 0.0,
-      "compound": 0.0
-    },
     "benefitKeywords": [],
     "actionVerbs": [
       "Imagine",
@@ -149,7 +142,14 @@
     ],
     "phraseType": "statement",
     "focus": "benefit",
-    "usesStats": false
+    "usesStats": false,
+    "sentiment_analysis": {
+      "sentiment": "Neutral",
+      "negative": 0.0,
+      "neutral": 1.0,
+      "positive": 0.0,
+      "compound": 0.0
+    }
   },
   {
     "rank": 8,
@@ -159,13 +159,6 @@
     "maker": "https://x.com/SoundAdviceClub",
     "headline": "Unlock your music career with expert mentorship",
     "language": "English",
-    "sentiment_analysis": {
-      "sentiment": "Neutral",
-      "negative": 0.0,
-      "neutral": 1.0,
-      "positive": 0.0,
-      "compound": 0.0
-    },
     "benefitKeywords": [
       "Unlock",
       "expert mentorship"
@@ -173,7 +166,14 @@
     "actionVerbs": [],
     "phraseType": "statement",
     "focus": "benefit",
-    "usesStats": false
+    "usesStats": false,
+    "sentiment_analysis": {
+      "sentiment": "Neutral",
+      "negative": 0.0,
+      "neutral": 1.0,
+      "positive": 0.0,
+      "compound": 0.0
+    }
   },
   {
     "rank": 9,
@@ -181,7 +181,7 @@
     "url": "https://www.wcmultishipping.com/",
     "revenue": 73431,
     "maker": "https://x.com/akaasten",
-    "headline": "Int\u00e9grez Chronopost et Mondial Relay \u00e0 votre site WooCommerce",
+    "headline": "Intgrez Chronopost et Mondial Relay votre site WooCommerce",
     "language": "French",
     "benefitKeywords": [
       "Int\u00e9grez",
@@ -199,15 +199,8 @@
     "url": "https://www.aidirectori.es/",
     "revenue": 69072,
     "maker": "https://x.com/s_chiriac",
-    "headline": "All yourAI Directoriesin one place",
+    "headline": "All your AI Directories in one place",
     "language": "English",
-    "sentiment_analysis": {
-      "sentiment": "Neutral",
-      "negative": 0.0,
-      "neutral": 1.0,
-      "positive": 0.0,
-      "compound": 0.0
-    },
     "benefitKeywords": [],
     "actionVerbs": [
       "All",
@@ -215,7 +208,14 @@
     ],
     "phraseType": "statement",
     "focus": "features",
-    "usesStats": false
+    "usesStats": false,
+    "sentiment_analysis": {
+      "sentiment": "Neutral",
+      "negative": 0.0,
+      "neutral": 1.0,
+      "positive": 0.0,
+      "compound": 0.0
+    }
   },
   {
     "rank": 11,
@@ -225,13 +225,6 @@
     "maker": "https://x.com/jackfriks",
     "headline": "Schedule your content everywhere in seconds",
     "language": "English",
-    "sentiment_analysis": {
-      "sentiment": "Neutral",
-      "negative": 0.0,
-      "neutral": 1.0,
-      "positive": 0.0,
-      "compound": 0.0
-    },
     "benefitKeywords": [
       "everywhere",
       "seconds"
@@ -241,7 +234,14 @@
     ],
     "phraseType": "statement",
     "focus": "features",
-    "usesStats": false
+    "usesStats": false,
+    "sentiment_analysis": {
+      "sentiment": "Neutral",
+      "negative": 0.0,
+      "neutral": 1.0,
+      "positive": 0.0,
+      "compound": 0.0
+    }
   },
   {
     "rank": 12,
@@ -251,13 +251,6 @@
     "maker": "https://x.com/montakaoh",
     "headline": "TranslateMom - Translate Youtube Videos, Get Captions, Subtitles & Accurate Video Translation and...",
     "language": "English",
-    "sentiment_analysis": {
-      "sentiment": "Neutral",
-      "negative": 0.0,
-      "neutral": 1.0,
-      "positive": 0.0,
-      "compound": 0.0
-    },
     "benefitKeywords": [
       "accurate",
       "translation"
@@ -268,7 +261,14 @@
     ],
     "phraseType": "statement",
     "focus": "benefit",
-    "usesStats": false
+    "usesStats": false,
+    "sentiment_analysis": {
+      "sentiment": "Neutral",
+      "negative": 0.0,
+      "neutral": 1.0,
+      "positive": 0.0,
+      "compound": 0.0
+    }
   },
   {
     "rank": 13,
@@ -278,13 +278,6 @@
     "maker": "https://x.com/paletmiki",
     "headline": "Stop losing money gambling, start investing",
     "language": "English",
-    "sentiment_analysis": {
-      "sentiment": "Negative",
-      "negative": 0.545,
-      "neutral": 0.455,
-      "positive": 0.0,
-      "compound": -0.5859
-    },
     "benefitKeywords": [
       "investing"
     ],
@@ -294,7 +287,14 @@
     ],
     "phraseType": "statement",
     "focus": "benefit",
-    "usesStats": false
+    "usesStats": false,
+    "sentiment_analysis": {
+      "sentiment": "Negative",
+      "negative": 0.545,
+      "neutral": 0.455,
+      "positive": 0.0,
+      "compound": -0.5859
+    }
   },
   {
     "rank": 14,
@@ -304,20 +304,20 @@
     "maker": "https://x.com/ryandavogel",
     "headline": "Mandarin 3D Prints",
     "language": "English",
-    "sentiment_analysis": {
-      "sentiment": "Neutral",
-      "negative": 0.0,
-      "neutral": 1.0,
-      "positive": 0.0,
-      "compound": 0.0
-    },
     "benefitKeywords": [],
     "actionVerbs": [
       "Prints"
     ],
     "phraseType": "statement",
     "focus": "features",
-    "usesStats": false
+    "usesStats": false,
+    "sentiment_analysis": {
+      "sentiment": "Neutral",
+      "negative": 0.0,
+      "neutral": 1.0,
+      "positive": 0.0,
+      "compound": 0.0
+    }
   },
   {
     "rank": 15,
@@ -325,15 +325,8 @@
     "url": "https://make.magicmealkits.com/",
     "revenue": 36385,
     "maker": "https://x.com/karintomanjuX",
-    "headline": "Unleash Make'sFull Potential",
+    "headline": "Unleash Make's Full Potential",
     "language": "English",
-    "sentiment_analysis": {
-      "sentiment": "Neutral",
-      "negative": 0.0,
-      "neutral": 1.0,
-      "positive": 0.0,
-      "compound": 0.0
-    },
     "benefitKeywords": [
       "unleash",
       "potential"
@@ -341,7 +334,14 @@
     "actionVerbs": [],
     "phraseType": "statement",
     "focus": "benefit",
-    "usesStats": false
+    "usesStats": false,
+    "sentiment_analysis": {
+      "sentiment": "Neutral",
+      "negative": 0.0,
+      "neutral": 1.0,
+      "positive": 0.0,
+      "compound": 0.0
+    }
   },
   {
     "rank": 16,
@@ -349,7 +349,7 @@
     "url": "https://wrapfa.st/",
     "revenue": 34145,
     "maker": "https://x.com/juanjovn",
-    "headline": "Ship viral appsCalorie CounterGhiblify AppPlant IdentifierInterior DesignerCocktail CreatorFish I...",
+    "headline": "Ship viral apps the easiest way.",
     "language": "Unknown",
     "benefitKeywords": [],
     "actionVerbs": [],
@@ -373,13 +373,6 @@
     "maker": "https://x.com/mattmerrick16",
     "headline": "Discover High-Traffic Ideas and Build Tools That Matter",
     "language": "English",
-    "sentiment_analysis": {
-      "sentiment": "Neutral",
-      "negative": 0.0,
-      "neutral": 0.864,
-      "positive": 0.136,
-      "compound": 0.0258
-    },
     "benefitKeywords": [
       "High-Traffic",
       "Tools That Matter"
@@ -390,7 +383,14 @@
     ],
     "phraseType": "statement",
     "focus": "benefit",
-    "usesStats": false
+    "usesStats": false,
+    "sentiment_analysis": {
+      "sentiment": "Neutral",
+      "negative": 0.0,
+      "neutral": 0.864,
+      "positive": 0.136,
+      "compound": 0.0258
+    }
   },
   {
     "rank": 19,
@@ -416,13 +416,6 @@
     "maker": "https://x.com/yunuscode",
     "headline": "Concept to Launch in 2 weeks.",
     "language": "English",
-    "sentiment_analysis": {
-      "sentiment": "Neutral",
-      "negative": 0.0,
-      "neutral": 1.0,
-      "positive": 0.0,
-      "compound": 0.0
-    },
     "benefitKeywords": [
       "Launch"
     ],
@@ -431,7 +424,14 @@
     ],
     "phraseType": "statement",
     "focus": "features",
-    "usesStats": false
+    "usesStats": false,
+    "sentiment_analysis": {
+      "sentiment": "Neutral",
+      "negative": 0.0,
+      "neutral": 1.0,
+      "positive": 0.0,
+      "compound": 0.0
+    }
   },
   {
     "rank": 21,
@@ -439,15 +439,8 @@
     "url": "https://zenvoice.io/",
     "revenue": 15797,
     "maker": "https://x.com/marc_louvion",
-    "headline": "Stop paying 0.4%for Stripe invoices",
+    "headline": "Stop paying 0.4% for Stripe invoices",
     "language": "English",
-    "sentiment_analysis": {
-      "sentiment": "Negative",
-      "negative": 0.355,
-      "neutral": 0.645,
-      "positive": 0.0,
-      "compound": -0.296
-    },
     "benefitKeywords": [
       "save"
     ],
@@ -456,7 +449,14 @@
     ],
     "phraseType": "statement",
     "focus": "benefit",
-    "usesStats": false
+    "usesStats": false,
+    "sentiment_analysis": {
+      "sentiment": "Negative",
+      "negative": 0.306,
+      "neutral": 0.694,
+      "positive": 0.0,
+      "compound": -0.296
+    }
   },
   {
     "rank": 22,
@@ -466,13 +466,6 @@
     "maker": "https://x.com/alexshroud54",
     "headline": "Automatic Membean Bot - Accurate & Easy.",
     "language": "English",
-    "sentiment_analysis": {
-      "sentiment": "Positive",
-      "negative": 0.0,
-      "neutral": 0.58,
-      "positive": 0.42,
-      "compound": 0.4404
-    },
     "benefitKeywords": [
       "Automatic",
       "Accurate",
@@ -481,22 +474,22 @@
     "actionVerbs": [],
     "phraseType": "statement",
     "focus": "features",
-    "usesStats": false
+    "usesStats": false,
+    "sentiment_analysis": {
+      "sentiment": "Positive",
+      "negative": 0.0,
+      "neutral": 0.58,
+      "positive": 0.42,
+      "compound": 0.4404
+    }
   },
   {
     "rank": 23,
     "startup": "Melbah",
     "url": "https://www.melbah.com/",
     "revenue": 13539,
-    "headline": "Never Deal with Messy Cables AgainAdd wireless charging in 5 Minutes!",
+    "headline": "Never Deal with Messy Cables Again Add wireless charging in 5 Minutes!",
     "language": "English",
-    "sentiment_analysis": {
-      "sentiment": "Positive",
-      "negative": 0.0,
-      "neutral": 0.789,
-      "positive": 0.211,
-      "compound": 0.3404
-    },
     "benefitKeywords": [
       "wireless charging",
       "5 Minutes"
@@ -507,7 +500,14 @@
     ],
     "phraseType": "statement",
     "focus": "benefit",
-    "usesStats": false
+    "usesStats": false,
+    "sentiment_analysis": {
+      "sentiment": "Positive",
+      "negative": 0.0,
+      "neutral": 0.806,
+      "positive": 0.194,
+      "compound": 0.3404
+    }
   },
   {
     "rank": 24,
@@ -517,13 +517,6 @@
     "maker": "https://x.com/tinhochu",
     "headline": "Optimize Your Real Estate Recruiting with Data-Powered Analytics",
     "language": "English",
-    "sentiment_analysis": {
-      "sentiment": "Positive",
-      "negative": 0.0,
-      "neutral": 0.686,
-      "positive": 0.314,
-      "compound": 0.4939
-    },
     "benefitKeywords": [
       "optimize",
       "data-powered",
@@ -532,7 +525,14 @@
     "actionVerbs": [],
     "phraseType": "statement",
     "focus": "benefit",
-    "usesStats": false
+    "usesStats": false,
+    "sentiment_analysis": {
+      "sentiment": "Positive",
+      "negative": 0.0,
+      "neutral": 0.686,
+      "positive": 0.314,
+      "compound": 0.4939
+    }
   },
   {
     "rank": 25,
@@ -542,13 +542,6 @@
     "maker": "https://x.com/PLBompard",
     "headline": "X (Twitter) growth and monetization tool",
     "language": "English",
-    "sentiment_analysis": {
-      "sentiment": "Positive",
-      "negative": 0.0,
-      "neutral": 0.606,
-      "positive": 0.394,
-      "compound": 0.3818
-    },
     "benefitKeywords": [
       "growth",
       "monetization"
@@ -556,7 +549,14 @@
     "actionVerbs": [],
     "phraseType": "statement",
     "focus": "features",
-    "usesStats": false
+    "usesStats": false,
+    "sentiment_analysis": {
+      "sentiment": "Positive",
+      "negative": 0.0,
+      "neutral": 0.606,
+      "positive": 0.394,
+      "compound": 0.3818
+    }
   },
   {
     "rank": 26,
@@ -564,15 +564,8 @@
     "url": "https://datafa.st/",
     "revenue": 11678,
     "maker": "https://x.com/marc_louvion",
-    "headline": "Grow your startup with datanot guesses \ud83e\udd28",
+    "headline": "Grow your startup with data not guesses",
     "language": "English",
-    "sentiment_analysis": {
-      "sentiment": "Neutral",
-      "negative": 0.0,
-      "neutral": 1.0,
-      "positive": 0.0,
-      "compound": 0.0
-    },
     "benefitKeywords": [
       "grow",
       "startup"
@@ -580,7 +573,14 @@
     "actionVerbs": [],
     "phraseType": "statement",
     "focus": "benefit",
-    "usesStats": false
+    "usesStats": false,
+    "sentiment_analysis": {
+      "sentiment": "Neutral",
+      "negative": 0.0,
+      "neutral": 1.0,
+      "positive": 0.0,
+      "compound": 0.0
+    }
   },
   {
     "rank": 27,
@@ -590,13 +590,6 @@
     "maker": "https://x.com/shibley",
     "headline": "Create Stunning Videos Instantly with a Single Prompt.",
     "language": "English",
-    "sentiment_analysis": {
-      "sentiment": "Positive",
-      "negative": 0.0,
-      "neutral": 0.515,
-      "positive": 0.485,
-      "compound": 0.5719
-    },
     "benefitKeywords": [
       "Stunning",
       "Instantly"
@@ -606,7 +599,14 @@
     ],
     "phraseType": "statement",
     "focus": "benefit",
-    "usesStats": false
+    "usesStats": false,
+    "sentiment_analysis": {
+      "sentiment": "Positive",
+      "negative": 0.0,
+      "neutral": 0.515,
+      "positive": 0.485,
+      "compound": 0.5719
+    }
   },
   {
     "rank": 28,
@@ -614,15 +614,8 @@
     "url": "https://www.bargpt.app/",
     "revenue": 11165,
     "maker": "https://x.com/APSquaredDev",
-    "headline": "Mixing the Future: AI-CraftedCocktail Recipes at Your Fingertips.",
+    "headline": "Mixing the Future: AI Crafted Cocktail Recipes at Your Fingertips.",
     "language": "English",
-    "sentiment_analysis": {
-      "sentiment": "Neutral",
-      "negative": 0.0,
-      "neutral": 1.0,
-      "positive": 0.0,
-      "compound": 0.0
-    },
     "benefitKeywords": [
       "future",
       "AI-Crafted",
@@ -633,7 +626,14 @@
     ],
     "phraseType": "statement",
     "focus": "features",
-    "usesStats": false
+    "usesStats": false,
+    "sentiment_analysis": {
+      "sentiment": "Neutral",
+      "negative": 0.0,
+      "neutral": 1.0,
+      "positive": 0.0,
+      "compound": 0.0
+    }
   },
   {
     "rank": 29,
@@ -643,13 +643,6 @@
     "maker": "https://x.com/McTafting",
     "headline": "Idea to viral videos in 2 minutes.",
     "language": "English",
-    "sentiment_analysis": {
-      "sentiment": "Neutral",
-      "negative": 0.0,
-      "neutral": 1.0,
-      "positive": 0.0,
-      "compound": 0.0
-    },
     "benefitKeywords": [
       "viral",
       "2 minutes"
@@ -657,7 +650,14 @@
     "actionVerbs": [],
     "phraseType": "statement",
     "focus": "benefit",
-    "usesStats": false
+    "usesStats": false,
+    "sentiment_analysis": {
+      "sentiment": "Neutral",
+      "negative": 0.0,
+      "neutral": 1.0,
+      "positive": 0.0,
+      "compound": 0.0
+    }
   },
   {
     "rank": 30,
@@ -665,15 +665,8 @@
     "url": "https://buildersbidbook.com/",
     "revenue": 10640,
     "maker": "https://x.com/thejurgensiegel",
-    "headline": "Builder's Bid Book Home | Your Preconstruction Platform Built for Connections.",
+    "headline": "Your Preconstruction Platform Built for Connections.",
     "language": "English",
-    "sentiment_analysis": {
-      "sentiment": "Neutral",
-      "negative": 0.0,
-      "neutral": 1.0,
-      "positive": 0.0,
-      "compound": 0.0
-    },
     "benefitKeywords": [
       "Connections"
     ],
@@ -682,7 +675,14 @@
     ],
     "phraseType": "statement",
     "focus": "features",
-    "usesStats": false
+    "usesStats": false,
+    "sentiment_analysis": {
+      "sentiment": "Neutral",
+      "negative": 0.0,
+      "neutral": 1.0,
+      "positive": 0.0,
+      "compound": 0.0
+    }
   },
   {
     "rank": 31,
@@ -692,20 +692,20 @@
     "maker": "https://x.com/home",
     "headline": "The Ultimate Interview Copilot",
     "language": "English",
-    "sentiment_analysis": {
-      "sentiment": "Neutral",
-      "negative": 0.0,
-      "neutral": 1.0,
-      "positive": 0.0,
-      "compound": 0.0
-    },
     "benefitKeywords": [
       "Ultimate"
     ],
     "actionVerbs": [],
     "phraseType": "statement",
     "focus": "benefit",
-    "usesStats": false
+    "usesStats": false,
+    "sentiment_analysis": {
+      "sentiment": "Neutral",
+      "negative": 0.0,
+      "neutral": 1.0,
+      "positive": 0.0,
+      "compound": 0.0
+    }
   },
   {
     "rank": 32,
@@ -713,7 +713,7 @@
     "url": "https://www.outfitsai.com/",
     "revenue": 10274,
     "maker": "https://x.com/@mirzabiz",
-    "headline": "Outfits AI",
+    "headline": "Try On Any Outfits Using AI",
     "language": "Unknown",
     "benefitKeywords": [],
     "actionVerbs": [],
@@ -729,13 +729,6 @@
     "maker": "https://x.com/iamfra5er",
     "headline": "Build a bootstrapped, profitable database product in 2024.",
     "language": "English",
-    "sentiment_analysis": {
-      "sentiment": "Positive",
-      "negative": 0.0,
-      "neutral": 0.674,
-      "positive": 0.326,
-      "compound": 0.4404
-    },
     "benefitKeywords": [
       "profitable"
     ],
@@ -744,7 +737,14 @@
     ],
     "phraseType": "statement",
     "focus": "benefit",
-    "usesStats": false
+    "usesStats": false,
+    "sentiment_analysis": {
+      "sentiment": "Positive",
+      "negative": 0.0,
+      "neutral": 0.674,
+      "positive": 0.326,
+      "compound": 0.4404
+    }
   },
   {
     "rank": 34,
@@ -762,13 +762,6 @@
     "maker": "https://x.com/olearycrew",
     "headline": "Simple Todo List for Slack",
     "language": "English",
-    "sentiment_analysis": {
-      "sentiment": "Neutral",
-      "negative": 0.0,
-      "neutral": 1.0,
-      "positive": 0.0,
-      "compound": 0.0
-    },
     "benefitKeywords": [
       "Simple"
     ],
@@ -777,7 +770,14 @@
     ],
     "phraseType": "statement",
     "focus": "features",
-    "usesStats": false
+    "usesStats": false,
+    "sentiment_analysis": {
+      "sentiment": "Neutral",
+      "negative": 0.0,
+      "neutral": 1.0,
+      "positive": 0.0,
+      "compound": 0.0
+    }
   },
   {
     "rank": 36,
@@ -785,12 +785,10 @@
     "url": "https://butchi.ai/",
     "revenue": 8673,
     "maker": "https://x.com/laingoclam",
-    "headline": "BUTCHI. AI - C\u00f4ng c\u1ee5 vi\u1ebft content \u0111ang t\u1ea1o m\u1ed9t c\u01a1n \u0111\u1ecba ch\u1ea5n trong c\u1ed9ng \u0111\u1ed3ng.",
+    "headline": "BUTCHI. AI",
     "language": "Vietnamese",
     "benefitKeywords": [],
-    "actionVerbs": [
-      "t\u1ea1o"
-    ],
+    "actionVerbs": [],
     "phraseType": "statement",
     "focus": "features",
     "usesStats": false
@@ -801,15 +799,8 @@
     "url": "https://socialfinder.ai/",
     "revenue": 8202,
     "maker": "https://x.com/V3Patty",
-    "headline": "Find Anyone OnlineWith a Single Photo",
+    "headline": "Find Anyone Online With a Single Photo",
     "language": "English",
-    "sentiment_analysis": {
-      "sentiment": "Neutral",
-      "negative": 0.0,
-      "neutral": 1.0,
-      "positive": 0.0,
-      "compound": 0.0
-    },
     "benefitKeywords": [
       "find",
       "online",
@@ -818,7 +809,14 @@
     "actionVerbs": [],
     "phraseType": "statement",
     "focus": "benefit",
-    "usesStats": false
+    "usesStats": false,
+    "sentiment_analysis": {
+      "sentiment": "Neutral",
+      "negative": 0.0,
+      "neutral": 1.0,
+      "positive": 0.0,
+      "compound": 0.0
+    }
   },
   {
     "rank": 38,
@@ -828,20 +826,20 @@
     "maker": "https://x.com/JakeManger",
     "headline": "Convert your files",
     "language": "English",
-    "sentiment_analysis": {
-      "sentiment": "Neutral",
-      "negative": 0.0,
-      "neutral": 1.0,
-      "positive": 0.0,
-      "compound": 0.0
-    },
     "benefitKeywords": [],
     "actionVerbs": [
       "Convert"
     ],
     "phraseType": "statement",
     "focus": "features",
-    "usesStats": false
+    "usesStats": false,
+    "sentiment_analysis": {
+      "sentiment": "Neutral",
+      "negative": 0.0,
+      "neutral": 1.0,
+      "positive": 0.0,
+      "compound": 0.0
+    }
   },
   {
     "rank": 39,
@@ -851,13 +849,6 @@
     "maker": "https://x.com/rojack_dev",
     "headline": "We'll Be Back Soon!",
     "language": "English",
-    "sentiment_analysis": {
-      "sentiment": "Neutral",
-      "negative": 0.0,
-      "neutral": 1.0,
-      "positive": 0.0,
-      "compound": 0.0
-    },
     "benefitKeywords": [],
     "actionVerbs": [
       "Be",
@@ -865,7 +856,14 @@
     ],
     "phraseType": "question",
     "focus": "features",
-    "usesStats": false
+    "usesStats": false,
+    "sentiment_analysis": {
+      "sentiment": "Neutral",
+      "negative": 0.0,
+      "neutral": 1.0,
+      "positive": 0.0,
+      "compound": 0.0
+    }
   },
   {
     "rank": 40,
@@ -875,13 +873,6 @@
     "maker": "https://x.com/iamfra5er",
     "headline": "Submit Your Startup to 100+ Directories. Attract early adopters, increase traffic and build backl...",
     "language": "English",
-    "sentiment_analysis": {
-      "sentiment": "Positive",
-      "negative": 0.0,
-      "neutral": 0.714,
-      "positive": 0.286,
-      "compound": 0.5859
-    },
     "benefitKeywords": [
       "increase traffic",
       "build backlinks"
@@ -894,7 +885,14 @@
     ],
     "phraseType": "statement",
     "focus": "benefit",
-    "usesStats": false
+    "usesStats": true,
+    "sentiment_analysis": {
+      "sentiment": "Positive",
+      "negative": 0.0,
+      "neutral": 0.714,
+      "positive": 0.286,
+      "compound": 0.5859
+    }
   },
   {
     "rank": 41,
@@ -919,13 +917,6 @@
     "maker": "https://x.com/tillmusshoff",
     "headline": "Learn Languages as easy as a Child",
     "language": "English",
-    "sentiment_analysis": {
-      "sentiment": "Positive",
-      "negative": 0.0,
-      "neutral": 0.633,
-      "positive": 0.367,
-      "compound": 0.4404
-    },
     "benefitKeywords": [
       "easy"
     ],
@@ -934,7 +925,14 @@
     ],
     "phraseType": "statement",
     "focus": "benefit",
-    "usesStats": false
+    "usesStats": false,
+    "sentiment_analysis": {
+      "sentiment": "Positive",
+      "negative": 0.0,
+      "neutral": 0.633,
+      "positive": 0.367,
+      "compound": 0.4404
+    }
   },
   {
     "rank": 44,
@@ -942,7 +940,7 @@
     "url": "https://mangoform.app/",
     "revenue": 5778,
     "maker": "https://x.com/martinbonan",
-    "headline": "Forms thatactually convert",
+    "headline": "Forms that actually convert",
     "language": "Unknown",
     "benefitKeywords": [
       "convert"
@@ -958,15 +956,8 @@
     "url": "https://byedispute.com/",
     "revenue": 5748,
     "maker": "https://x.com/marc_louvion",
-    "headline": "Don't let a disputeget you bannedfrom Stripe",
+    "headline": "Don't let a dispute get you banned from Stripe",
     "language": "English",
-    "sentiment_analysis": {
-      "sentiment": "Neutral",
-      "negative": 0.0,
-      "neutral": 1.0,
-      "positive": 0.0,
-      "compound": 0.0
-    },
     "benefitKeywords": [
       "ban",
       "dispute"
@@ -976,7 +967,14 @@
     ],
     "phraseType": "statement",
     "focus": "benefit",
-    "usesStats": false
+    "usesStats": false,
+    "sentiment_analysis": {
+      "sentiment": "Negative",
+      "negative": 0.266,
+      "neutral": 0.533,
+      "positive": 0.201,
+      "compound": -0.1882
+    }
   },
   {
     "rank": 46,
@@ -986,13 +984,6 @@
     "maker": "https://x.com/",
     "headline": "Validate your startup idea and build an investor-ready pitch in minutes",
     "language": "English",
-    "sentiment_analysis": {
-      "sentiment": "Positive",
-      "negative": 0.0,
-      "neutral": 0.8,
-      "positive": 0.2,
-      "compound": 0.3612
-    },
     "benefitKeywords": [
       "validate",
       "investor-ready"
@@ -1002,7 +993,14 @@
     ],
     "phraseType": "statement",
     "focus": "benefit",
-    "usesStats": false
+    "usesStats": false,
+    "sentiment_analysis": {
+      "sentiment": "Positive",
+      "negative": 0.0,
+      "neutral": 0.8,
+      "positive": 0.2,
+      "compound": 0.3612
+    }
   },
   {
     "rank": 47,
@@ -1012,13 +1010,6 @@
     "maker": "https://x.com/_nonthakon",
     "headline": "The Adventure of ____: Bravery Hands of the Harmony Land",
     "language": "English",
-    "sentiment_analysis": {
-      "sentiment": "Positive",
-      "negative": 0.0,
-      "neutral": 0.461,
-      "positive": 0.539,
-      "compound": 0.802
-    },
     "benefitKeywords": [
       "Bravery",
       "Harmony"
@@ -1026,7 +1017,14 @@
     "actionVerbs": [],
     "phraseType": "statement",
     "focus": "benefit",
-    "usesStats": false
+    "usesStats": false,
+    "sentiment_analysis": {
+      "sentiment": "Positive",
+      "negative": 0.0,
+      "neutral": 0.461,
+      "positive": 0.539,
+      "compound": 0.802
+    }
   },
   {
     "rank": 48,
@@ -1034,13 +1032,13 @@
     "url": "https://tinylaun.ch/",
     "revenue": 5339,
     "maker": "https://x.com/chrissyinspace",
-    "headline": "TinyLaunch",
+    "headline": "Launch Today, Get a Badge & 54+ DR Backlink",
     "language": "Unknown",
     "benefitKeywords": [],
     "actionVerbs": [],
     "phraseType": "statement",
     "focus": "features",
-    "usesStats": false
+    "usesStats": true
   },
   {
     "rank": 49,
@@ -1050,13 +1048,6 @@
     "maker": "https://x.com/aschapmann",
     "headline": "Interact more effectively on LinkedIn",
     "language": "English",
-    "sentiment_analysis": {
-      "sentiment": "Positive",
-      "negative": 0.0,
-      "neutral": 0.556,
-      "positive": 0.444,
-      "compound": 0.4927
-    },
     "benefitKeywords": [
       "more effectively"
     ],
@@ -1065,7 +1056,14 @@
     ],
     "phraseType": "statement",
     "focus": "benefit",
-    "usesStats": false
+    "usesStats": false,
+    "sentiment_analysis": {
+      "sentiment": "Positive",
+      "negative": 0.0,
+      "neutral": 0.556,
+      "positive": 0.444,
+      "compound": 0.4927
+    }
   },
   {
     "rank": 50,
@@ -1075,13 +1073,6 @@
     "maker": "https://x.com/JoshDance",
     "headline": "Digital collaborative checklists for dentists and their teams",
     "language": "English",
-    "sentiment_analysis": {
-      "sentiment": "Neutral",
-      "negative": 0.0,
-      "neutral": 1.0,
-      "positive": 0.0,
-      "compound": 0.0
-    },
     "benefitKeywords": [
       "collaborative",
       "efficient",
@@ -1090,7 +1081,14 @@
     "actionVerbs": [],
     "phraseType": "statement",
     "focus": "features",
-    "usesStats": false
+    "usesStats": false,
+    "sentiment_analysis": {
+      "sentiment": "Neutral",
+      "negative": 0.0,
+      "neutral": 1.0,
+      "positive": 0.0,
+      "compound": 0.0
+    }
   },
   {
     "rank": 51,
@@ -1098,15 +1096,8 @@
     "url": "https://shipthat.app/",
     "revenue": 4539,
     "maker": "https://x.com/msiatrak",
-    "headline": "SwiftUI App Development with Secure AI Integration | ShipThat. App",
+    "headline": "SwiftUI App Development with Secure AI Integration",
     "language": "English",
-    "sentiment_analysis": {
-      "sentiment": "Positive",
-      "negative": 0.0,
-      "neutral": 0.769,
-      "positive": 0.231,
-      "compound": 0.34
-    },
     "benefitKeywords": [
       "Secure",
       "AI Integration"
@@ -1116,7 +1107,14 @@
     ],
     "phraseType": "statement",
     "focus": "features",
-    "usesStats": false
+    "usesStats": false,
+    "sentiment_analysis": {
+      "sentiment": "Positive",
+      "negative": 0.0,
+      "neutral": 0.714,
+      "positive": 0.286,
+      "compound": 0.34
+    }
   },
   {
     "rank": 52,
@@ -1126,13 +1124,6 @@
     "maker": "https://x.com/paletmiki",
     "headline": "Find all your invoices automatically, save hundreds of hours.",
     "language": "English",
-    "sentiment_analysis": {
-      "sentiment": "Positive",
-      "negative": 0.0,
-      "neutral": 0.714,
-      "positive": 0.286,
-      "compound": 0.4939
-    },
     "benefitKeywords": [
       "save time"
     ],
@@ -1142,7 +1133,14 @@
     ],
     "phraseType": "statement",
     "focus": "benefit",
-    "usesStats": false
+    "usesStats": false,
+    "sentiment_analysis": {
+      "sentiment": "Positive",
+      "negative": 0.0,
+      "neutral": 0.714,
+      "positive": 0.286,
+      "compound": 0.4939
+    }
   },
   {
     "rank": 53,
@@ -1150,20 +1148,20 @@
     "url": "https://rewritebar.com/",
     "revenue": 3393,
     "maker": "https://x.com/m91michel",
-    "headline": "in Any Application",
+    "headline": "Improve Writing in Any Application",
     "language": "English",
-    "sentiment_analysis": {
-      "sentiment": "Neutral",
-      "negative": 0.0,
-      "neutral": 1.0,
-      "positive": 0.0,
-      "compound": 0.0
-    },
     "benefitKeywords": [],
     "actionVerbs": [],
     "phraseType": "statement",
     "focus": "features",
-    "usesStats": false
+    "usesStats": false,
+    "sentiment_analysis": {
+      "sentiment": "Positive",
+      "negative": 0.0,
+      "neutral": 0.58,
+      "positive": 0.42,
+      "compound": 0.4404
+    }
   },
   {
     "rank": 54,
@@ -1173,13 +1171,6 @@
     "maker": "https://x.com/Fragalli_X",
     "headline": "Your SEO internal linking automated for Webflow",
     "language": "English",
-    "sentiment_analysis": {
-      "sentiment": "Neutral",
-      "negative": 0.0,
-      "neutral": 1.0,
-      "positive": 0.0,
-      "compound": 0.0
-    },
     "benefitKeywords": [
       "automated"
     ],
@@ -1188,7 +1179,14 @@
     ],
     "phraseType": "statement",
     "focus": "features",
-    "usesStats": false
+    "usesStats": false,
+    "sentiment_analysis": {
+      "sentiment": "Neutral",
+      "negative": 0.0,
+      "neutral": 1.0,
+      "positive": 0.0,
+      "compound": 0.0
+    }
   },
   {
     "rank": 55,
@@ -1198,13 +1196,6 @@
     "maker": "http://x.com/manpreets7",
     "headline": "Premium Professional Headshots, Without Leaving Home.",
     "language": "English",
-    "sentiment_analysis": {
-      "sentiment": "Neutral",
-      "negative": 0.0,
-      "neutral": 1.0,
-      "positive": 0.0,
-      "compound": 0.0
-    },
     "benefitKeywords": [
       "Premium",
       "Professional",
@@ -1213,7 +1204,14 @@
     "actionVerbs": [],
     "phraseType": "statement",
     "focus": "benefit",
-    "usesStats": false
+    "usesStats": false,
+    "sentiment_analysis": {
+      "sentiment": "Neutral",
+      "negative": 0.0,
+      "neutral": 1.0,
+      "positive": 0.0,
+      "compound": 0.0
+    }
   },
   {
     "rank": 56,
@@ -1223,13 +1221,6 @@
     "maker": "https://x.com/marc_louvion",
     "headline": "Language workbooks created just for you",
     "language": "English",
-    "sentiment_analysis": {
-      "sentiment": "Positive",
-      "negative": 0.0,
-      "neutral": 0.714,
-      "positive": 0.286,
-      "compound": 0.25
-    },
     "benefitKeywords": [
       "created",
       "just for you"
@@ -1237,7 +1228,14 @@
     "actionVerbs": [],
     "phraseType": "statement",
     "focus": "benefit",
-    "usesStats": false
+    "usesStats": false,
+    "sentiment_analysis": {
+      "sentiment": "Positive",
+      "negative": 0.0,
+      "neutral": 0.714,
+      "positive": 0.286,
+      "compound": 0.25
+    }
   },
   {
     "rank": 57,
@@ -1245,15 +1243,8 @@
     "url": "https://www.redditfa.com/",
     "revenue": 2480,
     "maker": "https://x.com/arthuryuzbashew",
-    "headline": "Market your SaaS to get moresales, with no stress.",
+    "headline": "Market your SaaS to get more sales, with no stress.",
     "language": "English",
-    "sentiment_analysis": {
-      "sentiment": "Negative",
-      "negative": 0.417,
-      "neutral": 0.583,
-      "positive": 0.0,
-      "compound": -0.6124
-    },
     "benefitKeywords": [
       "more sales",
       "no stress"
@@ -1263,7 +1254,14 @@
     ],
     "phraseType": "statement",
     "focus": "benefit",
-    "usesStats": false
+    "usesStats": false,
+    "sentiment_analysis": {
+      "sentiment": "Negative",
+      "negative": 0.397,
+      "neutral": 0.603,
+      "positive": 0.0,
+      "compound": -0.6444
+    }
   },
   {
     "rank": 58,
@@ -1273,20 +1271,20 @@
     "maker": "https://x.com/niyonx",
     "headline": "Chapters for YouTube videos in seconds, not hours!",
     "language": "English",
-    "sentiment_analysis": {
-      "sentiment": "Neutral",
-      "negative": 0.0,
-      "neutral": 1.0,
-      "positive": 0.0,
-      "compound": 0.0
-    },
     "benefitKeywords": [
       "seconds"
     ],
     "actionVerbs": [],
     "phraseType": "statement",
     "focus": "features",
-    "usesStats": false
+    "usesStats": false,
+    "sentiment_analysis": {
+      "sentiment": "Neutral",
+      "negative": 0.0,
+      "neutral": 1.0,
+      "positive": 0.0,
+      "compound": 0.0
+    }
   },
   {
     "rank": 59,
@@ -1296,18 +1294,18 @@
     "maker": "https://x.com/mattmerrick16",
     "headline": "46% of Google Search is Local",
     "language": "English",
+    "benefitKeywords": [],
+    "actionVerbs": [],
+    "phraseType": "statement",
+    "focus": "features",
+    "usesStats": true,
     "sentiment_analysis": {
       "sentiment": "Neutral",
       "negative": 0.0,
       "neutral": 1.0,
       "positive": 0.0,
       "compound": 0.0
-    },
-    "benefitKeywords": [],
-    "actionVerbs": [],
-    "phraseType": "statement",
-    "focus": "features",
-    "usesStats": true
+    }
   },
   {
     "rank": 60,
@@ -1316,18 +1314,18 @@
     "revenue": 2035,
     "headline": "Beyond the Hype.",
     "language": "English",
+    "benefitKeywords": [],
+    "actionVerbs": [],
+    "phraseType": "statement",
+    "focus": "features",
+    "usesStats": false,
     "sentiment_analysis": {
       "sentiment": "Neutral",
       "negative": 0.0,
       "neutral": 1.0,
       "positive": 0.0,
       "compound": 0.0
-    },
-    "benefitKeywords": [],
-    "actionVerbs": [],
-    "phraseType": "statement",
-    "focus": "features",
-    "usesStats": false
+    }
   },
   {
     "rank": 61,
@@ -1337,18 +1335,18 @@
     "maker": "https://x.com/TheAndreiBogdan",
     "headline": "LandingPro AI",
     "language": "English",
+    "benefitKeywords": [],
+    "actionVerbs": [],
+    "phraseType": "statement",
+    "focus": "features",
+    "usesStats": false,
     "sentiment_analysis": {
       "sentiment": "Neutral",
       "negative": 0.0,
       "neutral": 1.0,
       "positive": 0.0,
       "compound": 0.0
-    },
-    "benefitKeywords": [],
-    "actionVerbs": [],
-    "phraseType": "statement",
-    "focus": "features",
-    "usesStats": false
+    }
   },
   {
     "rank": 62,
@@ -1366,13 +1364,6 @@
     "maker": "https://x.com/martinbonan",
     "headline": "Scheduling madeeffortlessly simple",
     "language": "English",
-    "sentiment_analysis": {
-      "sentiment": "Neutral",
-      "negative": 0.0,
-      "neutral": 1.0,
-      "positive": 0.0,
-      "compound": 0.0
-    },
     "benefitKeywords": [
       "simple"
     ],
@@ -1381,7 +1372,14 @@
     ],
     "phraseType": "statement",
     "focus": "benefit",
-    "usesStats": false
+    "usesStats": false,
+    "sentiment_analysis": {
+      "sentiment": "Neutral",
+      "negative": 0.0,
+      "neutral": 1.0,
+      "positive": 0.0,
+      "compound": 0.0
+    }
   },
   {
     "rank": 64,
@@ -1389,15 +1387,8 @@
     "url": "https://www.whisperchat.ai/",
     "revenue": 1492,
     "maker": "https://x.com/ashish__hirpara",
-    "headline": "Whisperchat. ai | An AI support bot for your website",
+    "headline": "An AI support bot for your website",
     "language": "English",
-    "sentiment_analysis": {
-      "sentiment": "Positive",
-      "negative": 0.0,
-      "neutral": 0.748,
-      "positive": 0.252,
-      "compound": 0.4019
-    },
     "benefitKeywords": [
       "support",
       "efficient"
@@ -1405,7 +1396,14 @@
     "actionVerbs": [],
     "phraseType": "statement",
     "focus": "features",
-    "usesStats": false
+    "usesStats": false,
+    "sentiment_analysis": {
+      "sentiment": "Positive",
+      "negative": 0.0,
+      "neutral": 0.69,
+      "positive": 0.31,
+      "compound": 0.4019
+    }
   },
   {
     "rank": 65,
@@ -1423,18 +1421,18 @@
     "maker": "https://x.com/APSquaredDev",
     "headline": "Restaurants on TV",
     "language": "English",
+    "benefitKeywords": [],
+    "actionVerbs": [],
+    "phraseType": "statement",
+    "focus": "features",
+    "usesStats": false,
     "sentiment_analysis": {
       "sentiment": "Neutral",
       "negative": 0.0,
       "neutral": 1.0,
       "positive": 0.0,
       "compound": 0.0
-    },
-    "benefitKeywords": [],
-    "actionVerbs": [],
-    "phraseType": "statement",
-    "focus": "features",
-    "usesStats": false
+    }
   },
   {
     "rank": 67,
@@ -1444,13 +1442,6 @@
     "maker": "https://x.com/d3liaz",
     "headline": "Turn your diagram sketches into digital schemes",
     "language": "English",
-    "sentiment_analysis": {
-      "sentiment": "Neutral",
-      "negative": 0.0,
-      "neutral": 1.0,
-      "positive": 0.0,
-      "compound": 0.0
-    },
     "benefitKeywords": [
       "digital",
       "schemes"
@@ -1460,7 +1451,14 @@
     ],
     "phraseType": "statement",
     "focus": "features",
-    "usesStats": false
+    "usesStats": false,
+    "sentiment_analysis": {
+      "sentiment": "Neutral",
+      "negative": 0.0,
+      "neutral": 1.0,
+      "positive": 0.0,
+      "compound": 0.0
+    }
   },
   {
     "rank": 68,
@@ -1470,20 +1468,20 @@
     "maker": "https://x.com/_nilni",
     "headline": "Ask me anything",
     "language": "English",
-    "sentiment_analysis": {
-      "sentiment": "Neutral",
-      "negative": 0.0,
-      "neutral": 1.0,
-      "positive": 0.0,
-      "compound": 0.0
-    },
     "benefitKeywords": [],
     "actionVerbs": [
       "Ask"
     ],
     "phraseType": "statement",
     "focus": "features",
-    "usesStats": false
+    "usesStats": false,
+    "sentiment_analysis": {
+      "sentiment": "Neutral",
+      "negative": 0.0,
+      "neutral": 1.0,
+      "positive": 0.0,
+      "compound": 0.0
+    }
   },
   {
     "rank": 69,
@@ -1493,20 +1491,20 @@
     "maker": "https://www.x.com/klay_hopgood",
     "headline": "SuperchargedStrava Activity Descriptions!",
     "language": "English",
-    "sentiment_analysis": {
-      "sentiment": "Neutral",
-      "negative": 0.0,
-      "neutral": 1.0,
-      "positive": 0.0,
-      "compound": 0.0
-    },
     "benefitKeywords": [
       "Supercharged"
     ],
     "actionVerbs": [],
     "phraseType": "statement",
     "focus": "features",
-    "usesStats": false
+    "usesStats": false,
+    "sentiment_analysis": {
+      "sentiment": "Neutral",
+      "negative": 0.0,
+      "neutral": 1.0,
+      "positive": 0.0,
+      "compound": 0.0
+    }
   },
   {
     "rank": 70,
@@ -1516,18 +1514,18 @@
     "maker": "https://x.com/jackfriks",
     "headline": "Curiosity Quench",
     "language": "English",
+    "benefitKeywords": [],
+    "actionVerbs": [],
+    "phraseType": "statement",
+    "focus": "features",
+    "usesStats": false,
     "sentiment_analysis": {
       "sentiment": "Neutral",
       "negative": 0.0,
       "neutral": 1.0,
       "positive": 0.0,
       "compound": 0.0
-    },
-    "benefitKeywords": [],
-    "actionVerbs": [],
-    "phraseType": "statement",
-    "focus": "features",
-    "usesStats": false
+    }
   },
   {
     "rank": 71,
@@ -1537,13 +1535,6 @@
     "maker": "https://x.com/joanboschpons",
     "headline": "Craft Stunning Grids. Showcase Rich and Beautiful.",
     "language": "English",
-    "sentiment_analysis": {
-      "sentiment": "Positive",
-      "negative": 0.0,
-      "neutral": 0.284,
-      "positive": 0.716,
-      "compound": 0.8779
-    },
     "benefitKeywords": [
       "Stunning",
       "Rich",
@@ -1555,7 +1546,14 @@
     ],
     "phraseType": "statement",
     "focus": "benefit",
-    "usesStats": false
+    "usesStats": false,
+    "sentiment_analysis": {
+      "sentiment": "Positive",
+      "negative": 0.0,
+      "neutral": 0.284,
+      "positive": 0.716,
+      "compound": 0.8779
+    }
   },
   {
     "rank": 72,
@@ -1565,13 +1563,6 @@
     "maker": "https://x.com/BowTiedDingo",
     "headline": "Boost Email ROI with AI-Powered List Cleaning",
     "language": "English",
-    "sentiment_analysis": {
-      "sentiment": "Positive",
-      "negative": 0.0,
-      "neutral": 0.69,
-      "positive": 0.31,
-      "compound": 0.4019
-    },
     "benefitKeywords": [
       "Boost",
       "AI-Powered",
@@ -1580,7 +1571,14 @@
     "actionVerbs": [],
     "phraseType": "statement",
     "focus": "benefit",
-    "usesStats": false
+    "usesStats": false,
+    "sentiment_analysis": {
+      "sentiment": "Positive",
+      "negative": 0.0,
+      "neutral": 0.69,
+      "positive": 0.31,
+      "compound": 0.4019
+    }
   },
   {
     "rank": 73,
@@ -1590,13 +1588,6 @@
     "maker": "https://x.com/marc_louvion",
     "headline": "Upgrade your life with tiny habits",
     "language": "English",
-    "sentiment_analysis": {
-      "sentiment": "Neutral",
-      "negative": 0.0,
-      "neutral": 1.0,
-      "positive": 0.0,
-      "compound": 0.0
-    },
     "benefitKeywords": [
       "Upgrade",
       "tiny habits"
@@ -1604,7 +1595,14 @@
     "actionVerbs": [],
     "phraseType": "statement",
     "focus": "benefit",
-    "usesStats": false
+    "usesStats": false,
+    "sentiment_analysis": {
+      "sentiment": "Neutral",
+      "negative": 0.0,
+      "neutral": 1.0,
+      "positive": 0.0,
+      "compound": 0.0
+    }
   },
   {
     "rank": 74,
@@ -1614,20 +1612,20 @@
     "maker": "https://x.com/SlouchyPete",
     "headline": "Validate South African ID Numbers",
     "language": "English",
-    "sentiment_analysis": {
-      "sentiment": "Positive",
-      "negative": 0.0,
-      "neutral": 0.615,
-      "positive": 0.385,
-      "compound": 0.3612
-    },
     "benefitKeywords": [],
     "actionVerbs": [
       "Validate"
     ],
     "phraseType": "statement",
     "focus": "features",
-    "usesStats": false
+    "usesStats": false,
+    "sentiment_analysis": {
+      "sentiment": "Positive",
+      "negative": 0.0,
+      "neutral": 0.615,
+      "positive": 0.385,
+      "compound": 0.3612
+    }
   },
   {
     "rank": 75,
@@ -1637,13 +1635,6 @@
     "maker": "https://x.com/xqliu",
     "headline": "Customizable, Enterprise Grade Low-Code Platform",
     "language": "English",
-    "sentiment_analysis": {
-      "sentiment": "Neutral",
-      "negative": 0.0,
-      "neutral": 1.0,
-      "positive": 0.0,
-      "compound": 0.0
-    },
     "benefitKeywords": [
       "Customizable",
       "Enterprise Grade"
@@ -1651,7 +1642,14 @@
     "actionVerbs": [],
     "phraseType": "statement",
     "focus": "features",
-    "usesStats": false
+    "usesStats": false,
+    "sentiment_analysis": {
+      "sentiment": "Neutral",
+      "negative": 0.0,
+      "neutral": 1.0,
+      "positive": 0.0,
+      "compound": 0.0
+    }
   },
   {
     "rank": 76,
@@ -1661,13 +1659,6 @@
     "maker": "https://x.com/hamdi_ceylan",
     "headline": "Collect feedback effortlessly from your app users",
     "language": "English",
-    "sentiment_analysis": {
-      "sentiment": "Neutral",
-      "negative": 0.0,
-      "neutral": 1.0,
-      "positive": 0.0,
-      "compound": 0.0
-    },
     "benefitKeywords": [
       "effortlessly"
     ],
@@ -1676,7 +1667,14 @@
     ],
     "phraseType": "statement",
     "focus": "benefit",
-    "usesStats": false
+    "usesStats": false,
+    "sentiment_analysis": {
+      "sentiment": "Neutral",
+      "negative": 0.0,
+      "neutral": 1.0,
+      "positive": 0.0,
+      "compound": 0.0
+    }
   },
   {
     "rank": 77,
@@ -1686,13 +1684,6 @@
     "maker": "https://x.com/activation_guy",
     "headline": "Uplift Activation Rates by +23% with behavioral redesigns.",
     "language": "English",
-    "sentiment_analysis": {
-      "sentiment": "Neutral",
-      "negative": 0.0,
-      "neutral": 1.0,
-      "positive": 0.0,
-      "compound": 0.0
-    },
     "benefitKeywords": [
       "Uplift",
       "Activation Rates",
@@ -1701,7 +1692,14 @@
     "actionVerbs": [],
     "phraseType": "statement",
     "focus": "benefit",
-    "usesStats": true
+    "usesStats": true,
+    "sentiment_analysis": {
+      "sentiment": "Neutral",
+      "negative": 0.0,
+      "neutral": 1.0,
+      "positive": 0.0,
+      "compound": 0.0
+    }
   },
   {
     "rank": 78,
@@ -1711,13 +1709,6 @@
     "maker": "https://x.com/QinJayH",
     "headline": "AI writes the body You write the soul",
     "language": "English",
-    "sentiment_analysis": {
-      "sentiment": "Neutral",
-      "negative": 0.0,
-      "neutral": 1.0,
-      "positive": 0.0,
-      "compound": 0.0
-    },
     "benefitKeywords": [],
     "actionVerbs": [
       "writes",
@@ -1725,7 +1716,14 @@
     ],
     "phraseType": "statement",
     "focus": "features",
-    "usesStats": false
+    "usesStats": false,
+    "sentiment_analysis": {
+      "sentiment": "Neutral",
+      "negative": 0.0,
+      "neutral": 1.0,
+      "positive": 0.0,
+      "compound": 0.0
+    }
   },
   {
     "rank": 79,
@@ -1743,13 +1741,6 @@
     "maker": "https://x.com/mattmerrick16",
     "headline": "Generate Your Next Micro SaaS Idea",
     "language": "English",
-    "sentiment_analysis": {
-      "sentiment": "Neutral",
-      "negative": 0.0,
-      "neutral": 1.0,
-      "positive": 0.0,
-      "compound": 0.0
-    },
     "benefitKeywords": [
       "Generate",
       "Next"
@@ -1757,7 +1748,14 @@
     "actionVerbs": [],
     "phraseType": "statement",
     "focus": "benefit",
-    "usesStats": false
+    "usesStats": false,
+    "sentiment_analysis": {
+      "sentiment": "Neutral",
+      "negative": 0.0,
+      "neutral": 1.0,
+      "positive": 0.0,
+      "compound": 0.0
+    }
   },
   {
     "rank": 81,
@@ -1767,13 +1765,6 @@
     "maker": "https://x.com/nalenb",
     "headline": "Discover New Destinations With Our RV Temperature Map",
     "language": "English",
-    "sentiment_analysis": {
-      "sentiment": "Neutral",
-      "negative": 0.0,
-      "neutral": 1.0,
-      "positive": 0.0,
-      "compound": 0.0
-    },
     "benefitKeywords": [
       "Discover",
       "New"
@@ -1781,7 +1772,14 @@
     "actionVerbs": [],
     "phraseType": "statement",
     "focus": "benefit",
-    "usesStats": false
+    "usesStats": false,
+    "sentiment_analysis": {
+      "sentiment": "Neutral",
+      "negative": 0.0,
+      "neutral": 1.0,
+      "positive": 0.0,
+      "compound": 0.0
+    }
   },
   {
     "rank": 82,
@@ -1813,13 +1811,6 @@
     "maker": "https://x.com/SlouchyPete",
     "headline": "Each student deserves tailored feedback",
     "language": "English",
-    "sentiment_analysis": {
-      "sentiment": "Neutral",
-      "negative": 0.0,
-      "neutral": 1.0,
-      "positive": 0.0,
-      "compound": 0.0
-    },
     "benefitKeywords": [
       "tailored",
       "feedback"
@@ -1829,7 +1820,14 @@
     ],
     "phraseType": "statement",
     "focus": "benefit",
-    "usesStats": false
+    "usesStats": false,
+    "sentiment_analysis": {
+      "sentiment": "Neutral",
+      "negative": 0.0,
+      "neutral": 1.0,
+      "positive": 0.0,
+      "compound": 0.0
+    }
   },
   {
     "rank": 85,
@@ -1839,13 +1837,6 @@
     "maker": "https://x.com/omotnyk",
     "headline": "Bring Discord functionality into HubSpot in a few clicks",
     "language": "English",
-    "sentiment_analysis": {
-      "sentiment": "Negative",
-      "negative": 0.278,
-      "neutral": 0.722,
-      "positive": 0.0,
-      "compound": -0.4019
-    },
     "benefitKeywords": [
       "few clicks"
     ],
@@ -1855,7 +1846,14 @@
     ],
     "phraseType": "statement",
     "focus": "features",
-    "usesStats": false
+    "usesStats": false,
+    "sentiment_analysis": {
+      "sentiment": "Negative",
+      "negative": 0.278,
+      "neutral": 0.722,
+      "positive": 0.0,
+      "compound": -0.4019
+    }
   },
   {
     "rank": 86,
@@ -1865,20 +1863,20 @@
     "maker": "https://x.com/tillmusshoff",
     "headline": "Your Projects Deserve Your Time",
     "language": "English",
-    "sentiment_analysis": {
-      "sentiment": "Neutral",
-      "negative": 0.0,
-      "neutral": 1.0,
-      "positive": 0.0,
-      "compound": 0.0
-    },
     "benefitKeywords": [
       "deserve"
     ],
     "actionVerbs": [],
     "phraseType": "statement",
     "focus": "benefit",
-    "usesStats": false
+    "usesStats": false,
+    "sentiment_analysis": {
+      "sentiment": "Neutral",
+      "negative": 0.0,
+      "neutral": 1.0,
+      "positive": 0.0,
+      "compound": 0.0
+    }
   },
   {
     "rank": 87,
@@ -1886,22 +1884,22 @@
     "url": "https://llanai.com/",
     "revenue": 374,
     "maker": "https://x.com/just_aristides",
-    "headline": "Language Learningis a Habit",
+    "headline": "Language Learning is a Habit",
     "language": "English",
-    "sentiment_analysis": {
-      "sentiment": "Neutral",
-      "negative": 0.0,
-      "neutral": 1.0,
-      "positive": 0.0,
-      "compound": 0.0
-    },
     "benefitKeywords": [],
     "actionVerbs": [
       "Learning"
     ],
     "phraseType": "statement",
     "focus": "features",
-    "usesStats": false
+    "usesStats": false,
+    "sentiment_analysis": {
+      "sentiment": "Neutral",
+      "negative": 0.0,
+      "neutral": 1.0,
+      "positive": 0.0,
+      "compound": 0.0
+    }
   },
   {
     "rank": 88,
@@ -1911,13 +1909,6 @@
     "maker": "https://x.com/ddos003",
     "headline": "Free AI text to sound effects generator",
     "language": "English",
-    "sentiment_analysis": {
-      "sentiment": "Positive",
-      "negative": 0.0,
-      "neutral": 0.645,
-      "positive": 0.355,
-      "compound": 0.5106
-    },
     "benefitKeywords": [
       "Free",
       "sound effects generator"
@@ -1925,7 +1916,14 @@
     "actionVerbs": [],
     "phraseType": "statement",
     "focus": "features",
-    "usesStats": false
+    "usesStats": false,
+    "sentiment_analysis": {
+      "sentiment": "Positive",
+      "negative": 0.0,
+      "neutral": 0.645,
+      "positive": 0.355,
+      "compound": 0.5106
+    }
   },
   {
     "rank": 89,
@@ -1935,20 +1933,20 @@
     "maker": "https://x.com/QinJayH",
     "headline": "Connecting Emotions to Flavors",
     "language": "English",
-    "sentiment_analysis": {
-      "sentiment": "Neutral",
-      "negative": 0.0,
-      "neutral": 1.0,
-      "positive": 0.0,
-      "compound": 0.0
-    },
     "benefitKeywords": [],
     "actionVerbs": [
       "Connecting"
     ],
     "phraseType": "statement",
     "focus": "features",
-    "usesStats": false
+    "usesStats": false,
+    "sentiment_analysis": {
+      "sentiment": "Neutral",
+      "negative": 0.0,
+      "neutral": 1.0,
+      "positive": 0.0,
+      "compound": 0.0
+    }
   },
   {
     "rank": 90,
@@ -1956,7 +1954,7 @@
     "url": "https://www.tales.so/",
     "revenue": 323,
     "maker": "https://x.com/arpwal",
-    "headline": "BOOKS ASPODCASTS",
+    "headline": "BOOKS AS PODCASTS",
     "language": "Unknown",
     "benefitKeywords": [],
     "actionVerbs": [],
@@ -1971,13 +1969,6 @@
     "revenue": 306,
     "headline": "Manage your microfinance group's finances smoothly and efficiently",
     "language": "English",
-    "sentiment_analysis": {
-      "sentiment": "Positive",
-      "negative": 0.0,
-      "neutral": 0.722,
-      "positive": 0.278,
-      "compound": 0.4019
-    },
     "benefitKeywords": [
       "smoothly",
       "efficiently"
@@ -1987,7 +1978,14 @@
     ],
     "phraseType": "statement",
     "focus": "benefit",
-    "usesStats": false
+    "usesStats": false,
+    "sentiment_analysis": {
+      "sentiment": "Positive",
+      "negative": 0.0,
+      "neutral": 0.722,
+      "positive": 0.278,
+      "compound": 0.4019
+    }
   },
   {
     "rank": 92,
@@ -1995,20 +1993,20 @@
     "url": "https://www.commentbounce.com/",
     "revenue": 306,
     "maker": "https://www.x.com/lazy3ngineer",
-    "headline": "Social Media Comment Moderation - Comment Bounce",
+    "headline": "Social Media Comment Moderation",
     "language": "English",
+    "benefitKeywords": [],
+    "actionVerbs": [],
+    "phraseType": "statement",
+    "focus": "features",
+    "usesStats": false,
     "sentiment_analysis": {
       "sentiment": "Neutral",
       "negative": 0.0,
       "neutral": 1.0,
       "positive": 0.0,
       "compound": 0.0
-    },
-    "benefitKeywords": [],
-    "actionVerbs": [],
-    "phraseType": "statement",
-    "focus": "features",
-    "usesStats": false
+    }
   },
   {
     "rank": 93,
@@ -2016,15 +2014,8 @@
     "url": "https://www.ctabuild.com/",
     "revenue": 302,
     "maker": "https://x.com/emilklitmose",
-    "headline": "Get Insights, Analyze and Boost Your Conversions \ud83d\ude80",
+    "headline": "Get Insights, Analyze and Boost Your Conversions",
     "language": "English",
-    "sentiment_analysis": {
-      "sentiment": "Positive",
-      "negative": 0.0,
-      "neutral": 0.69,
-      "positive": 0.31,
-      "compound": 0.4019
-    },
     "benefitKeywords": [
       "Insights",
       "Boost",
@@ -2037,7 +2028,14 @@
     ],
     "phraseType": "statement",
     "focus": "benefit",
-    "usesStats": false
+    "usesStats": false,
+    "sentiment_analysis": {
+      "sentiment": "Positive",
+      "negative": 0.0,
+      "neutral": 0.69,
+      "positive": 0.31,
+      "compound": 0.4019
+    }
   },
   {
     "rank": 94,
@@ -2047,13 +2045,6 @@
     "maker": "https://x.com/wangliao",
     "headline": "Build your startup on real needs, not guesses",
     "language": "English",
-    "sentiment_analysis": {
-      "sentiment": "Neutral",
-      "negative": 0.0,
-      "neutral": 1.0,
-      "positive": 0.0,
-      "compound": 0.0
-    },
     "benefitKeywords": [
       "real needs"
     ],
@@ -2062,7 +2053,14 @@
     ],
     "phraseType": "statement",
     "focus": "benefit",
-    "usesStats": false
+    "usesStats": false,
+    "sentiment_analysis": {
+      "sentiment": "Neutral",
+      "negative": 0.0,
+      "neutral": 1.0,
+      "positive": 0.0,
+      "compound": 0.0
+    }
   },
   {
     "rank": 95,
@@ -2072,13 +2070,6 @@
     "maker": "https://x.com/badtz_ui",
     "headline": "An open-source React UI library with production-ready animations. Weekly updates. Built with Reac...",
     "language": "English",
-    "sentiment_analysis": {
-      "sentiment": "Neutral",
-      "negative": 0.0,
-      "neutral": 1.0,
-      "positive": 0.0,
-      "compound": 0.0
-    },
     "benefitKeywords": [
       "production-ready",
       "weekly updates"
@@ -2088,7 +2079,14 @@
     ],
     "phraseType": "statement",
     "focus": "features",
-    "usesStats": false
+    "usesStats": false,
+    "sentiment_analysis": {
+      "sentiment": "Neutral",
+      "negative": 0.0,
+      "neutral": 1.0,
+      "positive": 0.0,
+      "compound": 0.0
+    }
   },
   {
     "rank": 96,
@@ -2106,13 +2104,6 @@
     "maker": "https://x.com/mattmerrick16",
     "headline": "Get Listed, Without Breaking the Bank.",
     "language": "English",
-    "sentiment_analysis": {
-      "sentiment": "Neutral",
-      "negative": 0.0,
-      "neutral": 1.0,
-      "positive": 0.0,
-      "compound": 0.0
-    },
     "benefitKeywords": [
       "save money"
     ],
@@ -2121,7 +2112,14 @@
     ],
     "phraseType": "statement",
     "focus": "benefit",
-    "usesStats": false
+    "usesStats": false,
+    "sentiment_analysis": {
+      "sentiment": "Neutral",
+      "negative": 0.0,
+      "neutral": 1.0,
+      "positive": 0.0,
+      "compound": 0.0
+    }
   },
   {
     "rank": 98,
@@ -2129,15 +2127,8 @@
     "url": "https://appbars.co/",
     "revenue": 250,
     "maker": "https://x.com/echo_zenith",
-    "headline": "Boost Conversions by15% in 5 Minutes",
+    "headline": "Boost Conversions by 15% in 5 Minutes",
     "language": "English",
-    "sentiment_analysis": {
-      "sentiment": "Positive",
-      "negative": 0.0,
-      "neutral": 0.597,
-      "positive": 0.403,
-      "compound": 0.4019
-    },
     "benefitKeywords": [
       "Boost",
       "Conversions",
@@ -2147,7 +2138,14 @@
     "actionVerbs": [],
     "phraseType": "statement",
     "focus": "benefit",
-    "usesStats": true
+    "usesStats": true,
+    "sentiment_analysis": {
+      "sentiment": "Positive",
+      "negative": 0.0,
+      "neutral": 0.649,
+      "positive": 0.351,
+      "compound": 0.4019
+    }
   },
   {
     "rank": 99,
@@ -2157,13 +2155,6 @@
     "maker": "https://x.com/chungaoutdoor",
     "headline": "Attract high-end clients through architecture awards",
     "language": "English",
-    "sentiment_analysis": {
-      "sentiment": "Positive",
-      "negative": 0.0,
-      "neutral": 0.421,
-      "positive": 0.579,
-      "compound": 0.6705
-    },
     "benefitKeywords": [
       "attract",
       "high-end",
@@ -2174,7 +2165,14 @@
     ],
     "phraseType": "statement",
     "focus": "benefit",
-    "usesStats": false
+    "usesStats": false,
+    "sentiment_analysis": {
+      "sentiment": "Positive",
+      "negative": 0.0,
+      "neutral": 0.421,
+      "positive": 0.579,
+      "compound": 0.6705
+    }
   },
   {
     "rank": 100,
@@ -2183,19 +2181,19 @@
     "revenue": 212,
     "headline": "Creative Developer Jobs",
     "language": "English",
-    "sentiment_analysis": {
-      "sentiment": "Positive",
-      "negative": 0.0,
-      "neutral": 0.408,
-      "positive": 0.592,
-      "compound": 0.4404
-    },
     "benefitKeywords": [],
     "actionVerbs": [
       "Creative"
     ],
     "phraseType": "statement",
     "focus": "features",
-    "usesStats": false
+    "usesStats": false,
+    "sentiment_analysis": {
+      "sentiment": "Positive",
+      "negative": 0.0,
+      "neutral": 0.408,
+      "positive": 0.592,
+      "compound": 0.4404
+    }
   }
 ]

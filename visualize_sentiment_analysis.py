@@ -215,13 +215,29 @@ def plot_sentiment_components(df):
     save_plot(fig, 'sentiment_components.png')
 
 def plot_top_headlines(df, n=10):
-    """Create horizontal bar charts for top positive and negative headlines."""
+    """
+    Create horizontal bar charts for top positive and negative headlines.
+    Also outputs a CSV file with the top 5 most negative and positive headlines.
+    """
     # Sort by compound score
     df_sorted = df.sort_values('compound')
 
     # Get top n most negative and most positive headlines
     most_negative = df_sorted.head(n)
     most_positive = df_sorted.tail(n).iloc[::-1]  # Reverse to show highest first
+
+    # If n >= 5, output a CSV file with the top 5 most negative and positive headlines
+    if n >= 5:
+        # Create a DataFrame with two columns: most negative and most positive headlines
+        csv_data = pd.DataFrame({
+            'Most Negative Headlines': most_negative.head(5)['headline'].values,
+            'Most Positive Headlines': most_positive.head(5)['headline'].values
+        })
+
+        # Save to CSV
+        csv_path = os.path.join(OUTPUT_DIR, 'top_sentiment_headlines.csv')
+        csv_data.to_csv(csv_path, index=False)
+        print(f"Saved top 5 most negative and positive headlines to {csv_path}")
 
     # Plot most negative headlines
     fig, ax = plt.subplots()

@@ -1,0 +1,602 @@
+[
+    {
+        "rank": 1,
+        "startup": "Shugert",
+        "revenue": 628895,
+        "maker": "https://shugert.com"
+    },
+    {
+        "rank": 2,
+        "startup": "Inovo Studios",
+        "revenue": 423170,
+        "maker": "https://inovostudios.com"
+    },
+    {
+        "rank": 3,
+        "startup": "The100kDatabase",
+        "revenue": 198673,
+        "maker": "https://the100kdatabase.com"
+    },
+    {
+        "rank": 4,
+        "startup": "Capgo",
+        "revenue": 173276,
+        "maker": "https://capgo.com"
+    },
+    {
+        "rank": 5,
+        "startup": "Tasker Army",
+        "revenue": 164235,
+        "maker": "https://taskerarmy.com"
+    },
+    {
+        "rank": 6,
+        "startup": "Yeema",
+        "revenue": 154583,
+        "maker": "https://yeema.com"
+    },
+    {
+        "rank": 7,
+        "startup": "Tribe Social",
+        "revenue": 89184,
+        "maker": "https://tribesocial.com"
+    },
+    {
+        "rank": 8,
+        "startup": "SoundAdvice",
+        "revenue": 77367,
+        "maker": "https://soundadvice.com"
+    },
+    {
+        "rank": 9,
+        "startup": "WcMultiShipping",
+        "revenue": 73431,
+        "maker": "https://wcmultishipping.com"
+    },
+    {
+        "rank": 10,
+        "startup": "AI Directories",
+        "revenue": 69072,
+        "maker": "https://aidirectories.com"
+    },
+    {
+        "rank": 11,
+        "startup": "post bridge",
+        "revenue": 67515,
+        "maker": "https://postbridge.com"
+    },
+    {
+        "rank": 12,
+        "startup": "TranslateMom",
+        "revenue": 65195,
+        "maker": "https://translatemom.com"
+    },
+    {
+        "rank": 13,
+        "startup": "ArbiChat",
+        "revenue": 49387,
+        "maker": "https://arbichat.com"
+    },
+    {
+        "rank": 14,
+        "startup": "Mandarin 3D Prints",
+        "revenue": 44791,
+        "maker": "https://mandarin3dprints.com"
+    },
+    {
+        "rank": 15,
+        "startup": "MagicMealKits",
+        "revenue": 36385,
+        "maker": "https://magicmealkits.com"
+    },
+    {
+        "rank": 16,
+        "startup": "WrapFast",
+        "revenue": 34145,
+        "maker": "https://wrapfast.com"
+    },
+    {
+        "rank": 17,
+        "startup": "Miniblog",
+        "revenue": 30974,
+        "maker": "https://miniblog.com"
+    },
+    {
+        "rank": 18,
+        "startup": "Niche Tools",
+        "revenue": 29931,
+        "maker": "https://nichetools.com"
+    },
+    {
+        "rank": 19,
+        "startup": "Insure Booster",
+        "revenue": 25013,
+        "maker": "https://insurebooster.com"
+    },
+    {
+        "rank": 20,
+        "startup": "Inteclab.org",
+        "revenue": 16768,
+        "maker": "https://inteclab.org"
+    },
+    {
+        "rank": 21,
+        "startup": "Zenvoice",
+        "revenue": 15797,
+        "maker": "https://zenvoice.com"
+    },
+    {
+        "rank": 22,
+        "startup": "Membeaner",
+        "revenue": 14123,
+        "maker": "https://membeaner.com"
+    },
+    {
+        "rank": 23,
+        "startup": "Melbah",
+        "revenue": 13539,
+        "maker": "https://melbah.com"
+    },
+    {
+        "rank": 24,
+        "startup": "AgentsMetrics",
+        "revenue": 11894,
+        "maker": "https://agentsmetrics.com"
+    },
+    {
+        "rank": 25,
+        "startup": "Snowball.club",
+        "revenue": 11771,
+        "maker": "https://snowball.club"
+    },
+    {
+        "rank": 26,
+        "startup": "DataFast",
+        "revenue": 11678,
+        "maker": "https://datafast.com"
+    },
+    {
+        "rank": 27,
+        "startup": "Bitycips",
+        "revenue": 11286,
+        "maker": "https://bitycips.com"
+    },
+    {
+        "rank": 28,
+        "startup": "BarGPT",
+        "revenue": 11165,
+        "maker": "https://bargpt.com"
+    },
+    {
+        "rank": 29,
+        "startup": "Vidia",
+        "revenue": 11009,
+        "maker": "https://vidia.com"
+    },
+    {
+        "rank": 30,
+        "startup": "Builders Bid Book",
+        "revenue": 10640,
+        "maker": "https://buildersbidbook.com"
+    },
+    {
+        "rank": 31,
+        "startup": "Interview Monkey",
+        "revenue": 10633,
+        "maker": "https://interviewmonkey.com"
+    },
+    {
+        "rank": 32,
+        "startup": "OutfitsAI",
+        "revenue": 10274,
+        "maker": "https://outfitsai.com"
+    },
+    {
+        "rank": 33,
+        "startup": "DaaSBoilerplate",
+        "revenue": 9436,
+        "maker": "https://daasboilerplate.com"
+    },
+    {
+        "rank": 34,
+        "startup": "CDN System",
+        "revenue": 9042,
+        "maker": "https://cdnsystem.com"
+    },
+    {
+        "rank": 35,
+        "startup": "Simple Todo",
+        "revenue": 8706,
+        "maker": "https://simpletodo.com"
+    },
+    {
+        "rank": 36,
+        "startup": "BUTCHI.AI",
+        "revenue": 8673,
+        "maker": "https://butchi.ai"
+    },
+    {
+        "rank": 37,
+        "startup": "socialfinder.ai",
+        "revenue": 8202,
+        "maker": "https://socialfinder.ai"
+    },
+    {
+        "rank": 38,
+        "startup": "How to Convert",
+        "revenue": 7875,
+        "maker": "https://howtoconvert.com"
+    },
+    {
+        "rank": 39,
+        "startup": "Do Hackers Know Me?",
+        "revenue": 7641,
+        "maker": "https://dohackersknowme.com"
+    },
+    {
+        "rank": 40,
+        "startup": "SubmitSites",
+        "revenue": 7195,
+        "maker": "https://submitsites.com"
+    },
+    {
+        "rank": 41,
+        "startup": "Mystartup",
+        "revenue": 7188,
+        "maker": "https://mystartup.com"
+    },
+    {
+        "rank": 42,
+        "startup": "PoopUp",
+        "revenue": 7119,
+        "maker": "https://poop-up.com"
+    },
+    {
+        "rank": 43,
+        "startup": "Lenguia",
+        "revenue": 6846,
+        "maker": "https://lenguia.com"
+    },
+    {
+        "rank": 44,
+        "startup": "MangoForm",
+        "revenue": 5778,
+        "maker": "https://mangoform.com"
+    },
+    {
+        "rank": 45,
+        "startup": "ByeDispute",
+        "revenue": 5748,
+        "maker": "https://byedispute.com"
+    },
+    {
+        "rank": 46,
+        "startup": "FoundrAI",
+        "revenue": 5625,
+        "maker": "https://foundrai.com"
+    },
+    {
+        "rank": 47,
+        "startup": "mychildartbook",
+        "revenue": 5410,
+        "maker": "https://mychildartbook.com"
+    },
+    {
+        "rank": 48,
+        "startup": "TinyLaunch",
+        "revenue": 5339,
+        "maker": "https://tinylaunch.com"
+    },
+    {
+        "rank": 49,
+        "startup": "MyFeedIn",
+        "revenue": 4955,
+        "maker": "https://myfeedin.com"
+    },
+    {
+        "rank": 50,
+        "startup": "MintChecklist.com",
+        "revenue": 4803,
+        "maker": "https://mintchecklist.com"
+    },
+    {
+        "rank": 51,
+        "startup": "ShipThatApp",
+        "revenue": 4539,
+        "maker": "https://shipthatapp.com"
+    },
+    {
+        "rank": 52,
+        "startup": "GetInvoice",
+        "revenue": 3680,
+        "maker": "https://getinvoice.com"
+    },
+    {
+        "rank": 53,
+        "startup": "RewriteBar",
+        "revenue": 3393,
+        "maker": "https://rewritebar.com"
+    },
+    {
+        "rank": 54,
+        "startup": "LinkerFlow",
+        "revenue": 3219,
+        "maker": "https://linkerflow.com"
+    },
+    {
+        "rank": 55,
+        "startup": "Quick Headshots",
+        "revenue": 2945,
+        "maker": "https://quickheadshots.com"
+    },
+    {
+        "rank": 56,
+        "startup": "WorkbookPDF",
+        "revenue": 2493,
+        "maker": "https://workbookpdf.com"
+    },
+    {
+        "rank": 57,
+        "startup": "Reddit Fast",
+        "revenue": 2480,
+        "maker": "https://redditfast.com"
+    },
+    {
+        "rank": 58,
+        "startup": "TimeSkip",
+        "revenue": 2439,
+        "maker": "https://timeskip.com"
+    },
+    {
+        "rank": 59,
+        "startup": "ShipLocal Directories",
+        "revenue": 2346,
+        "maker": "https://shiplocaldir.com"
+    },
+    {
+        "rank": 60,
+        "startup": "oceanheart.ai",
+        "revenue": 2035,
+        "maker": "https://oceanheart.ai"
+    },
+    {
+        "rank": 61,
+        "startup": "LandingPro AI",
+        "revenue": 1851,
+        "maker": "https://landingproai.com"
+    },
+    {
+        "rank": 62,
+        "startup": "Marvin",
+        "revenue": 1700,
+        "maker": "https://marvin.com"
+    },
+    {
+        "rank": 63,
+        "startup": "PeachCalendar F*ckSubscription",
+        "revenue": 1590,
+        "maker": "https://peachcalendar.com"
+    },
+    {
+        "rank": 64,
+        "startup": "WhisperChat AI",
+        "revenue": 1492,
+        "maker": "https://whisperchat.ai"
+    },
+    {
+        "rank": 65,
+        "startup": "Serendib Quest",
+        "revenue": 1450,
+        "maker": "https://serendibquest.com"
+    },
+    {
+        "rank": 66,
+        "startup": "TVFoodMaps",
+        "revenue": 1377,
+        "maker": "https://tvfoodmaps.com"
+    },
+    {
+        "rank": 67,
+        "startup": "Sketch2scheme",
+        "revenue": 1369,
+        "maker": "https://sketch2scheme.com"
+    },
+    {
+        "rank": 68,
+        "startup": "TarotRead AI",
+        "revenue": 1303,
+        "maker": "https://tarotread.ai"
+    },
+    {
+        "rank": 69,
+        "startup": "ActivityStat",
+        "revenue": 1295,
+        "maker": "https://activitystat.com"
+    },
+    {
+        "rank": 70,
+        "startup": "Curiosity Quench",
+        "revenue": 1289,
+        "maker": "https://curiosityquench.com"
+    },
+    {
+        "rank": 71,
+        "startup": "Gridwow",
+        "revenue": 1171,
+        "maker": "https://gridwow.com"
+    },
+    {
+        "rank": 72,
+        "startup": "AlwaysLander",
+        "revenue": 1006,
+        "maker": "https://alwayslander.com"
+    },
+    {
+        "rank": 73,
+        "startup": "Habits Garden",
+        "revenue": 931,
+        "maker": "https://habitsgarden.com"
+    },
+    {
+        "rank": 74,
+        "startup": "Check ID SA",
+        "revenue": 811,
+        "maker": "https://checkidsa.com"
+    },
+    {
+        "rank": 75,
+        "startup": "LCDP.ai",
+        "revenue": 780,
+        "maker": "https://lcdp.ai"
+    },
+    {
+        "rank": 76,
+        "startup": "MobileFeedback.app",
+        "revenue": 604,
+        "maker": "https://mobilefeedback.app"
+    },
+    {
+        "rank": 77,
+        "startup": "ActivationLed",
+        "revenue": 600,
+        "maker": "https://activationled.com"
+    },
+    {
+        "rank": 78,
+        "startup": "ohboiler",
+        "revenue": 538,
+        "maker": "https://ohboiler.com"
+    },
+    {
+        "rank": 79,
+        "startup": "Supercal",
+        "revenue": 492,
+        "maker": "https://supercal.com"
+    },
+    {
+        "rank": 80,
+        "startup": "Micro Saas Ideas",
+        "revenue": 468,
+        "maker": "https://microsaasideas.com"
+    },
+    {
+        "rank": 81,
+        "startup": "Chasing 70 Degrees",
+        "revenue": 466,
+        "maker": "https://chasing70degrees.com"
+    },
+    {
+        "rank": 82,
+        "startup": "Equipea",
+        "revenue": 460,
+        "maker": "https://equipea.com"
+    },
+    {
+        "rank": 83,
+        "startup": "Text Reels",
+        "revenue": 453,
+        "maker": "https://textreels.com"
+    },
+    {
+        "rank": 84,
+        "startup": "School Report AI",
+        "revenue": 412,
+        "maker": "https://schoolreportai.com"
+    },
+    {
+        "rank": 85,
+        "startup": "Disco",
+        "revenue": 407,
+        "maker": "https://disco.com"
+    },
+    {
+        "rank": 86,
+        "startup": "Streeeaks",
+        "revenue": 391,
+        "maker": "https://streeeaks.com"
+    },
+    {
+        "rank": 87,
+        "startup": "Llanai",
+        "revenue": 374,
+        "maker": "https://llanai.com"
+    },
+    {
+        "rank": 88,
+        "startup": "Soundify",
+        "revenue": 340,
+        "maker": "https://soundify.com"
+    },
+    {
+        "rank": 89,
+        "startup": "mood2food",
+        "revenue": 329,
+        "maker": "https://mood2food.com"
+    },
+    {
+        "rank": 90,
+        "startup": "Tales.so",
+        "revenue": 323,
+        "maker": "https://tales.so"
+    },
+    {
+        "rank": 91,
+        "startup": "SmartChama",
+        "revenue": 306,
+        "maker": "https://smartchama.com"
+    },
+    {
+        "rank": 92,
+        "startup": "Comment Bounce",
+        "revenue": 306,
+        "maker": "https://commentbounce.com"
+    },
+    {
+        "rank": 93,
+        "startup": "Ctabuild",
+        "revenue": 302,
+        "maker": "https://ctabuild.com"
+    },
+    {
+        "rank": 94,
+        "startup": "RealNeedsAI",
+        "revenue": 299,
+        "maker": "https://realneeds.ai"
+    },
+    {
+        "rank": 95,
+        "startup": "BadtzUI",
+        "revenue": 282,
+        "maker": "https://badtzui.com"
+    },
+    {
+        "rank": 96,
+        "startup": "MealClub",
+        "revenue": 261,
+        "maker": "https://mealclub.com"
+    },
+    {
+        "rank": 97,
+        "startup": "Submit 25",
+        "revenue": 254,
+        "maker": "https://submit25.com"
+    },
+    {
+        "rank": 98,
+        "startup": "Appbars",
+        "revenue": 250,
+        "maker": "https://appbars.com"
+    },
+    {
+        "rank": 99,
+        "startup": "Architecture Awards Tracker",
+        "revenue": 248,
+        "maker": "https://architectureawardstracker.com"
+    },
+    {
+        "rank": 100,
+        "startup": "Creativedevjobs",
+        "revenue": 212,
+        "maker": "https://creativedevjobs.com"
+    }
+]

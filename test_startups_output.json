@@ -1,0 +1,23 @@
+[
+    {
+        "rank": 1,
+        "startup": "Shugert",
+        "revenue": 628895,
+        "maker": "https://shugert.com",
+        "headline": "I'm sorry, but the provided HTML content does not contain the main headline or tagline for the startup 'Shugert'."
+    },
+    {
+        "rank": 2,
+        "startup": "Inovo Studios",
+        "revenue": 423170,
+        "maker": "https://inovostudios.com",
+        "headline": "THE\u00a0NEWFACE OFECOMMERCE &\u00a0PRODUCT PHOTOGRAPHY"
+    },
+    {
+        "rank": 10,
+        "startup": "AI Directories",
+        "revenue": 69072,
+        "maker": "https://aidirectories.com",
+        "headline": "All your AI Directories in one place"
+    }
+]

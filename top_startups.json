@@ -1,0 +1,698 @@
+[
+  {
+    "rank": 1,
+    "startup": "Shugert",
+    "url": "https://shugert.com.mx/shopify-experts",
+    "revenue": 628895,
+    "maker": "https://x.com/shugert"
+  },
+  {
+    "rank": 2,
+    "startup": "Inovo Studios",
+    "url": "https://www.inovo.io/",
+    "revenue": 423170,
+    "maker": "https://x.com/brucevanzyl"
+  },
+  {
+    "rank": 3,
+    "startup": "The100kDatabase",
+    "url": "https://the100kdatabase.com/",
+    "revenue": 198673,
+    "maker": "https://x.com/iamfra5er"
+  },
+  {
+    "rank": 4,
+    "startup": "Capgo",
+    "url": "https://capgo.app/",
+    "revenue": 173276,
+    "maker": "https://x.com/martindonadieu"
+  },
+  {
+    "rank": 5,
+    "startup": "Tasker Army",
+    "url": "https://taskerarmy.com/",
+    "revenue": 164235,
+    "maker": "https://x.com/shugert"
+  },
+  {
+    "rank": 6,
+    "startup": "Yeema",
+    "url": "https://www.yeema.co/",
+    "revenue": 154583,
+    "maker": "https://x.com/Vexoa1"
+  },
+  {
+    "rank": 7,
+    "startup": "Tribe Social",
+    "url": "https://www.tribesocial.io/",
+    "revenue": 89184,
+    "maker": "https://x.com/brucevanzyl"
+  },
+  {
+    "rank": 8,
+    "startup": "SoundAdvice",
+    "url": "https://www.soundadvice.club/",
+    "revenue": 77367,
+    "maker": "https://x.com/SoundAdviceClub"
+  },
+  {
+    "rank": 9,
+    "startup": "WcMultiShipping",
+    "url": "https://www.wcmultishipping.com/",
+    "revenue": 73431,
+    "maker": "https://x.com/akaasten"
+  },
+  {
+    "rank": 10,
+    "startup": "AI Directories",
+    "url": "https://www.aidirectori.es/",
+    "revenue": 69072,
+    "maker": "https://x.com/s_chiriac"
+  },
+  {
+    "rank": 11,
+    "startup": "post bridge",
+    "url": "https://www.post-bridge.com/",
+    "revenue": 67515,
+    "maker": "https://x.com/jackfriks"
+  },
+  {
+    "rank": 12,
+    "startup": "TranslateMom",
+    "url": "https://www.translate.mom/",
+    "revenue": 65195,
+    "maker": "https://x.com/montakaoh"
+  },
+  {
+    "rank": 13,
+    "startup": "ArbiChat",
+    "url": "https://arbi.chat/",
+    "revenue": 49387,
+    "maker": "https://x.com/paletmiki"
+  },
+  {
+    "rank": 14,
+    "startup": "Mandarin 3D Prints",
+    "url": "https://mandarin3d.com/",
+    "revenue": 44791,
+    "maker": "https://x.com/ryandavogel"
+  },
+  {
+    "rank": 15,
+    "startup": "MagicMealKits",
+    "url": "https://make.magicmealkits.com/",
+    "revenue": 36385,
+    "maker": "https://x.com/karintomanjuX"
+  },
+  {
+    "rank": 16,
+    "startup": "WrapFast",
+    "url": "https://wrapfa.st/",
+    "revenue": 34145,
+    "maker": "https://x.com/juanjovn"
+  },
+  {
+    "rank": 17,
+    "startup": "Miniblog",
+    "url": "https://miniblog.ai/",
+    "revenue": 30974,
+    "maker": "https://x.com/simonMoisselin1"
+  },
+  {
+    "rank": 18,
+    "startup": "Niche Tools",
+    "url": "https://nichetools.net/",
+    "revenue": 29931,
+    "maker": "https://x.com/mattmerrick16"
+  },
+  {
+    "rank": 19,
+    "startup": "Insure Booster",
+    "url": "https://apps.shopify.com/insure-booster",
+    "revenue": 25013,
+    "maker": "https://x.com/shugert"
+  },
+  {
+    "rank": 20,
+    "startup": "Inteclab.org",
+    "url": "https://inteclab.org/",
+    "revenue": 16768,
+    "maker": "https://x.com/yunuscode"
+  },
+  {
+    "rank": 21,
+    "startup": "Zenvoice",
+    "url": "https://zenvoice.io/",
+    "revenue": 15797,
+    "maker": "https://x.com/marc_louvion"
+  },
+  {
+    "rank": 22,
+    "startup": "Membeaner",
+    "url": "https://www.membeaner.com/",
+    "revenue": 14123,
+    "maker": "https://x.com/alexshroud54"
+  },
+  {
+    "rank": 23,
+    "startup": "Melbah",
+    "url": "https://www.melbah.com/",
+    "revenue": 13539
+  },
+  {
+    "rank": 24,
+    "startup": "AgentsMetrics",
+    "url": "https://www.agentsmetrics.com/",
+    "revenue": 11894,
+    "maker": "https://x.com/tinhochu"
+  },
+  {
+    "rank": 25,
+    "startup": "Snowball.club",
+    "url": "https://snowball.club/",
+    "revenue": 11771,
+    "maker": "https://x.com/PLBompard"
+  },
+  {
+    "rank": 26,
+    "startup": "DataFast",
+    "url": "https://datafa.st/",
+    "revenue": 11678,
+    "maker": "https://x.com/marc_louvion"
+  },
+  {
+    "rank": 27,
+    "startup": "Bitycips",
+    "url": "https://bityclips.com/",
+    "revenue": 11286,
+    "maker": "https://x.com/shibley"
+  },
+  {
+    "rank": 28,
+    "startup": "BarGPT",
+    "url": "https://www.bargpt.app/",
+    "revenue": 11165,
+    "maker": "https://x.com/APSquaredDev"
+  },
+  {
+    "rank": 29,
+    "startup": "Vidia",
+    "url": "https://vidia.app/",
+    "revenue": 11009,
+    "maker": "https://x.com/McTafting"
+  },
+  {
+    "rank": 30,
+    "startup": "Builders Bid Book",
+    "url": "https://buildersbidbook.com/",
+    "revenue": 10640,
+    "maker": "https://x.com/thejurgensiegel"
+  },
+  {
+    "rank": 31,
+    "startup": "Interview Monkey",
+    "url": "https://interviewmonkey.ai/",
+    "revenue": 10633,
+    "maker": "https://x.com/home"
+  },
+  {
+    "rank": 32,
+    "startup": "OutfitsAI",
+    "url": "https://www.outfitsai.com/",
+    "revenue": 10274,
+    "maker": "https://x.com/@mirzabiz"
+  },
+  {
+    "rank": 33,
+    "startup": "DaaSBoilerplate",
+    "url": "https://daasboilerplate.com/",
+    "revenue": 9436,
+    "maker": "https://x.com/iamfra5er"
+  },
+  {
+    "rank": 34,
+    "startup": "CDN System",
+    "url": "https://cdn.inkwell.dev/",
+    "revenue": 9042,
+    "maker": "https://x.com/Vexoa1"
+  },
+  {
+    "rank": 35,
+    "startup": "Simple Todo",
+    "url": "https://getsimpletodo.com/",
+    "revenue": 8706,
+    "maker": "https://x.com/olearycrew"
+  },
+  {
+    "rank": 36,
+    "startup": "BUTCHI.AI",
+    "url": "https://butchi.ai/",
+    "revenue": 8673,
+    "maker": "https://x.com/laingoclam"
+  },
+  {
+    "rank": 37,
+    "startup": "socialfinder.ai",
+    "url": "https://socialfinder.ai/",
+    "revenue": 8202,
+    "maker": "https://x.com/V3Patty"
+  },
+  {
+    "rank": 38,
+    "startup": "How to Convert",
+    "url": "https://howtoconvert.co/",
+    "revenue": 7875,
+    "maker": "https://x.com/JakeManger"
+  },
+  {
+    "rank": 39,
+    "startup": "Do Hackers Know Me?",
+    "url": "https://dohackersknow.me/",
+    "revenue": 7641,
+    "maker": "https://x.com/rojack_dev"
+  },
+  {
+    "rank": 40,
+    "startup": "SubmitSites",
+    "url": "https://submitsites.org/",
+    "revenue": 7195,
+    "maker": "https://x.com/iamfra5er"
+  },
+  {
+    "rank": 41,
+    "startup": "Mystartup",
+    "url": "https://x.com/indieshatau",
+    "revenue": 7188,
+    "maker": "https://x.com/indieshatau"
+  },
+  {
+    "rank": 42,
+    "startup": "PoopUp",
+    "url": "https://poopup.co/",
+    "revenue": 7119,
+    "maker": "https://x.com/marc_louvion"
+  },
+  {
+    "rank": 43,
+    "startup": "Lenguia",
+    "url": "https://lenguia.com/",
+    "revenue": 6846,
+    "maker": "https://x.com/tillmusshoff"
+  },
+  {
+    "rank": 44,
+    "startup": "MangoForm",
+    "url": "https://mangoform.app/",
+    "revenue": 5778,
+    "maker": "https://x.com/martinbonan"
+  },
+  {
+    "rank": 45,
+    "startup": "ByeDispute",
+    "url": "https://byedispute.com/",
+    "revenue": 5748,
+    "maker": "https://x.com/marc_louvion"
+  },
+  {
+    "rank": 46,
+    "startup": "FoundrAI",
+    "url": "https://foundrai.com/",
+    "revenue": 5625,
+    "maker": "https://x.com/"
+  },
+  {
+    "rank": 47,
+    "startup": "mychildartbook",
+    "url": "https://mychildartbook.com/",
+    "revenue": 5410,
+    "maker": "https://x.com/_nonthakon"
+  },
+  {
+    "rank": 48,
+    "startup": "TinyLaunch",
+    "url": "https://tinylaun.ch/",
+    "revenue": 5339,
+    "maker": "https://x.com/chrissyinspace"
+  },
+  {
+    "rank": 49,
+    "startup": "MyFeedIn",
+    "url": "https://myfeedin.co/",
+    "revenue": 4955,
+    "maker": "https://x.com/aschapmann"
+  },
+  {
+    "rank": 50,
+    "startup": "MintChecklist.com",
+    "url": "https://www.mintchecklist.com/",
+    "revenue": 4803,
+    "maker": "https://x.com/JoshDance"
+  },
+  {
+    "rank": 51,
+    "startup": "ShipThatApp",
+    "url": "https://shipthat.app/",
+    "revenue": 4539,
+    "maker": "https://x.com/msiatrak"
+  },
+  {
+    "rank": 52,
+    "startup": "GetInvoice",
+    "url": "https://get-invoice.com/",
+    "revenue": 3680,
+    "maker": "https://x.com/paletmiki"
+  },
+  {
+    "rank": 53,
+    "startup": "RewriteBar",
+    "url": "https://rewritebar.com/",
+    "revenue": 3393,
+    "maker": "https://x.com/m91michel"
+  },
+  {
+    "rank": 54,
+    "startup": "LinkerFlow",
+    "url": "https://www.linkerflow.io/",
+    "revenue": 3219,
+    "maker": "https://x.com/Fragalli_X"
+  },
+  {
+    "rank": 55,
+    "startup": "Quick Headshots",
+    "url": "https://www.quickheadshots.com/",
+    "revenue": 2945,
+    "maker": "http://x.com/manpreets7"
+  },
+  {
+    "rank": 56,
+    "startup": "WorkbookPDF",
+    "url": "https://workbookpdf.com/",
+    "revenue": 2493,
+    "maker": "https://x.com/marc_louvion"
+  },
+  {
+    "rank": 57,
+    "startup": "Reddit Fast",
+    "url": "https://www.redditfa.com/",
+    "revenue": 2480,
+    "maker": "https://x.com/arthuryuzbashew"
+  },
+  {
+    "rank": 58,
+    "startup": "TimeSkip",
+    "url": "https://timeskip.io/",
+    "revenue": 2439,
+    "maker": "https://x.com/niyonx"
+  },
+  {
+    "rank": 59,
+    "startup": "ShipLocal Directories",
+    "url": "https://shiplocal.directory/",
+    "revenue": 2346,
+    "maker": "https://x.com/mattmerrick16"
+  },
+  {
+    "rank": 60,
+    "startup": "oceanheart.ai",
+    "url": "https://www.oceanheart.ai/",
+    "revenue": 2035
+  },
+  {
+    "rank": 61,
+    "startup": "LandingPro AI",
+    "url": "https://landingpro.ai/",
+    "revenue": 1851,
+    "maker": "https://x.com/TheAndreiBogdan"
+  },
+  {
+    "rank": 62,
+    "startup": "Marvin",
+    "url": "https://marvinbot.com/",
+    "revenue": 1700,
+    "maker": "https://x.com/juanjovn"
+  },
+  {
+    "rank": 63,
+    "startup": "PeachCalendar F*ckSubscription",
+    "url": "https://peachcalendar.app/",
+    "revenue": 1590,
+    "maker": "https://x.com/martinbonan"
+  },
+  {
+    "rank": 64,
+    "startup": "WhisperChat AI",
+    "url": "https://www.whisperchat.ai/",
+    "revenue": 1492,
+    "maker": "https://x.com/ashish__hirpara"
+  },
+  {
+    "rank": 65,
+    "startup": "Serendib Quest",
+    "url": "https://serendib.quest/",
+    "revenue": 1450,
+    "maker": "https://x.com/0xkarasy"
+  },
+  {
+    "rank": 66,
+    "startup": "TVFoodMaps",
+    "url": "https://www.tvfoodmaps.com/",
+    "revenue": 1377,
+    "maker": "https://x.com/APSquaredDev"
+  },
+  {
+    "rank": 67,
+    "startup": "Sketch2scheme",
+    "url": "https://sketch2scheme.com/",
+    "revenue": 1369,
+    "maker": "https://x.com/d3liaz"
+  },
+  {
+    "rank": 68,
+    "startup": "TarotRead AI",
+    "url": "https://www.tarotread.ai/",
+    "revenue": 1303,
+    "maker": "https://x.com/_nilni"
+  },
+  {
+    "rank": 69,
+    "startup": "ActivityStat",
+    "url": "https://www.activitystat.com/",
+    "revenue": 1295,
+    "maker": "https://www.x.com/klay_hopgood"
+  },
+  {
+    "rank": 70,
+    "startup": "Curiosity Quench",
+    "url": "https://www.curiosityquench.com/",
+    "revenue": 1289,
+    "maker": "https://x.com/jackfriks"
+  },
+  {
+    "rank": 71,
+    "startup": "Gridwow",
+    "url": "https://www.gridwow.me/",
+    "revenue": 1171,
+    "maker": "https://x.com/joanboschpons"
+  },
+  {
+    "rank": 72,
+    "startup": "AlwaysLander",
+    "url": "https://www.alwayslander.com/",
+    "revenue": 1006,
+    "maker": "https://x.com/BowTiedDingo"
+  },
+  {
+    "rank": 73,
+    "startup": "Habits Garden",
+    "url": "https://habitsgarden.com/",
+    "revenue": 931,
+    "maker": "https://x.com/marc_louvion"
+  },
+  {
+    "rank": 74,
+    "startup": "Check ID SA",
+    "url": "https://checkid.co.za/",
+    "revenue": 811,
+    "maker": "https://x.com/SlouchyPete"
+  },
+  {
+    "rank": 75,
+    "startup": "LCDP.ai",
+    "url": "https://lcdp.ai/",
+    "revenue": 780,
+    "maker": "https://x.com/xqliu"
+  },
+  {
+    "rank": 76,
+    "startup": "MobileFeedback.app",
+    "url": "https://www.mobilefeedback.app/",
+    "revenue": 604,
+    "maker": "https://x.com/hamdi_ceylan"
+  },
+  {
+    "rank": 77,
+    "startup": "ActivationLed",
+    "url": "https://www.activationled.com/",
+    "revenue": 600,
+    "maker": "https://x.com/activation_guy"
+  },
+  {
+    "rank": 78,
+    "startup": "ohboiler",
+    "url": "https://www.ohboiler.com/",
+    "revenue": 538,
+    "maker": "https://x.com/QinJayH"
+  },
+  {
+    "rank": 79,
+    "startup": "Supercal",
+    "url": "https://supercal.io/",
+    "revenue": 492,
+    "maker": "https://x.com/matosdfm"
+  },
+  {
+    "rank": 80,
+    "startup": "Micro Saas Ideas",
+    "url": "https://microsaasideas.net/",
+    "revenue": 468,
+    "maker": "https://x.com/mattmerrick16"
+  },
+  {
+    "rank": 81,
+    "startup": "Chasing 70 Degrees",
+    "url": "https://chasing70degrees.com/",
+    "revenue": 466,
+    "maker": "https://x.com/nalenb"
+  },
+  {
+    "rank": 82,
+    "startup": "Equipea",
+    "url": "https://equipea.es/",
+    "revenue": 460,
+    "maker": "https://x.com/equipea_es"
+  },
+  {
+    "rank": 83,
+    "startup": "Text Reels",
+    "url": "https://textreels.net/",
+    "revenue": 453,
+    "maker": "https://x.com/mattmerrick16"
+  },
+  {
+    "rank": 84,
+    "startup": "School Report AI",
+    "url": "https://schoolreportai.com/",
+    "revenue": 412,
+    "maker": "https://x.com/SlouchyPete"
+  },
+  {
+    "rank": 85,
+    "startup": "Disco",
+    "url": "https://getdisco.net/",
+    "revenue": 407,
+    "maker": "https://x.com/omotnyk"
+  },
+  {
+    "rank": 86,
+    "startup": "Streeeaks",
+    "url": "https://streeeaks.com/",
+    "revenue": 391,
+    "maker": "https://x.com/tillmusshoff"
+  },
+  {
+    "rank": 87,
+    "startup": "Llanai",
+    "url": "https://llanai.com/",
+    "revenue": 374,
+    "maker": "https://x.com/just_aristides"
+  },
+  {
+    "rank": 88,
+    "startup": "Soundify",
+    "url": "https://soundifytext.io/",
+    "revenue": 340,
+    "maker": "https://x.com/ddos003"
+  },
+  {
+    "rank": 89,
+    "startup": "mood2food",
+    "url": "https://www.mood2food.com/",
+    "revenue": 329,
+    "maker": "https://x.com/QinJayH"
+  },
+  {
+    "rank": 90,
+    "startup": "Tales.so",
+    "url": "https://www.tales.so/",
+    "revenue": 323,
+    "maker": "https://x.com/arpwal"
+  },
+  {
+    "rank": 91,
+    "startup": "SmartChama",
+    "url": "https://smartchama.com/",
+    "revenue": 306
+  },
+  {
+    "rank": 92,
+    "startup": "Comment Bounce",
+    "url": "https://www.commentbounce.com/",
+    "revenue": 306,
+    "maker": "https://www.x.com/lazy3ngineer"
+  },
+  {
+    "rank": 93,
+    "startup": "Ctabuild",
+    "url": "https://www.ctabuild.com/",
+    "revenue": 302,
+    "maker": "https://x.com/emilklitmose"
+  },
+  {
+    "rank": 94,
+    "startup": "RealNeedsAI",
+    "url": "https://realneeds.me/",
+    "revenue": 299,
+    "maker": "https://x.com/wangliao"
+  },
+  {
+    "rank": 95,
+    "startup": "BadtzUI",
+    "url": "https://www.badtz-ui.com/",
+    "revenue": 282,
+    "maker": "https://x.com/badtz_ui"
+  },
+  {
+    "rank": 96,
+    "startup": "MealClub",
+    "url": "https://mealclub.app/",
+    "revenue": 261,
+    "maker": "https://x.com/igorzmitrovich"
+  },
+  {
+    "rank": 97,
+    "startup": "Submit 25",
+    "url": "https://submit25.com/",
+    "revenue": 254,
+    "maker": "https://x.com/mattmerrick16"
+  },
+  {
+    "rank": 98,
+    "startup": "Appbars",
+    "url": "https://appbars.co/",
+    "revenue": 250,
+    "maker": "https://x.com/echo_zenith"
+  },
+  {
+    "rank": 99,
+    "startup": "Architecture Awards Tracker",
+    "url": "http://architectureawardstracker.com/",
+    "revenue": 248,
+    "maker": "https://x.com/chungaoutdoor"
+  },
+  {
+    "rank": 100,
+    "startup": "Creativedevjobs",
+    "url": "https://www.creativedevjobs.com/",
+    "revenue": 212
+  }
+]

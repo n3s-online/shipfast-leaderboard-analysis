@@ -85,7 +85,7 @@ After running the sentiment analysis, you can generate visualizations:
 pip install -r requirements.txt
 ```
 
-2. Run the visualization script:
+2. Run the sentiment visualization script:
 
 ```bash
 python visualize_sentiment_analysis.py
@@ -101,12 +101,76 @@ python visualize_sentiment_analysis.py
 
 Note: The visualization script will throw an error if any object in `data.json` is missing sentiment analysis data.
 
+### Word Cloud Generation
+
+You can also generate a word cloud from the headlines:
+
+1. Make sure you have the required libraries installed:
+
+```bash
+pip install -r requirements.txt
+```
+
+2. Run the word cloud script:
+
+```bash
+python generate_wordcloud.py
+```
+
+3. The script will generate a square PNG word cloud in the `visualizations` directory:
+   - `headline_wordcloud.png` - Word cloud showing the most common words in the headlines
+
+The script also prints the top 20 most common words found in the headlines.
+
+### Fetching Headlines
+
+You can fetch headlines for startups in the `startups.json` file:
+
+1. Make sure you have the required libraries installed:
+
+```bash
+pip install -r requirements.txt
+```
+
+2. Set your OpenAI API key in one of two ways:
+
+   a. Create a `.env` file in the project root (recommended):
+   ```
+   OPENAI_API_KEY=your-api-key
+   ```
+
+   b. Or set it as an environment variable:
+   ```bash
+   export OPENAI_API_KEY='your-api-key'
+   ```
+
+   Note: A `.env.example` file is provided as a template.
+
+3. Run the headline fetching script:
+
+```bash
+python fetch-headlines.py
+```
+
+The script will:
+- Process only entries in `startups.json` that don't have a headline field
+- Try to extract headlines using web scraping (BeautifulSoup)
+- If web scraping fails, use OpenAI to extract headlines
+- Skip entries that already have headlines
+- Save the updated data back to `startups.json`
+
+Note: If the script encounters errors while fetching a headline, it will move on to the next startup.
+
 ## Project Structure
 
 - `sentiment_analysis.py` - Main script for analyzing sentiment
 - `visualize_sentiment_analysis.py` - Script for generating data visualizations
+- `generate_wordcloud.py` - Script for generating a word cloud from headlines
+- `fetch-headlines.py` - Script for fetching headlines from startup websites
 - `initial_data.txt` - Input file containing text to analyze
 - `data.json` - JSON file with headlines and sentiment analysis results
+- `startups.json` - JSON file with startup data
+- `.env.example` - Example environment variables file
 - `visualizations/` - Directory containing generated visualization images
 - `requirements.txt` - List of Python dependencies
 - `README.md` - This documentation file
@@ -117,6 +181,12 @@ Note: The visualization script will throw an error if any object in `data.json` 
 - Matplotlib - Data visualization library
 - Seaborn - Statistical data visualization
 - Pandas - Data manipulation and analysis
+- WordCloud - Word cloud generator
+- Requests - HTTP library for web scraping
+- BeautifulSoup4 - HTML parsing library
+- OpenAI - API client for OpenAI services
+- tqdm - Progress bar library
+- python-dotenv - Environment variable management
 
 ## License
 

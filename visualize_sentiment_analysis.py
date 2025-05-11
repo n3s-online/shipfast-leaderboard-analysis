@@ -352,6 +352,175 @@ def plot_sentiment_boxplot(df):
 
     save_plot(fig, 'sentiment_boxplot.png')
 
+def plot_revenue_by_sentiment(df):
+    """Create a bar chart showing average revenue by sentiment category."""
+    # Group by sentiment and calculate mean revenue
+    revenue_by_sentiment = df.groupby('sentiment')['revenue'].mean().reset_index()
+
+    # Sort by average revenue (descending)
+    revenue_by_sentiment = revenue_by_sentiment.sort_values('revenue', ascending=False)
+
+    # Create a custom color map for the sentiments
+    colors = {'Positive': '#4CAF50', 'Neutral': '#FFC107', 'Negative': '#F44336'}
+    bar_colors = [colors[sentiment] for sentiment in revenue_by_sentiment['sentiment']]
+
+    # Create the figure
+    fig, ax = plt.subplots()
+
+    # Create the bar chart
+    bars = ax.bar(
+        revenue_by_sentiment['sentiment'],
+        revenue_by_sentiment['revenue'],
+        color=bar_colors,
+        edgecolor='white',
+        linewidth=1.5,
+        width=0.6
+    )
+
+    # Add value labels on top of each bar
+    for bar in bars:
+        height = bar.get_height()
+        ax.text(
+            bar.get_x() + bar.get_width()/2.,
+            height + 1000,  # Offset for visibility
+            f'${height:,.0f}',
+            ha='center',
+            va='bottom',
+            fontsize=12,
+            fontweight='bold'
+        )
+
+    # Add count labels below the category names
+    for i, (sentiment, group) in enumerate(df.groupby('sentiment')):
+        count = len(group)
+        percentage = (count / len(df)) * 100
+        ax.text(
+            i,
+            -5000,  # Offset below x-axis
+            f'n={count} ({percentage:.1f}%)',
+            ha='center',
+            va='top',
+            fontsize=10,
+            color='dimgray'
+        )
+
+    # Customize the plot
+    plt.title('Average Revenue by Headline Sentiment', fontsize=18, pad=20)
+    plt.ylabel('Average Revenue ($)', fontsize=14)
+    plt.xlabel('Sentiment Category', fontsize=14)
+
+    # Add grid lines for better readability
+    plt.grid(axis='y', linestyle='--', alpha=0.7)
+
+    # Adjust y-axis to start from 0
+    plt.ylim(bottom=0)
+
+    # Add some padding to the top for the labels
+    y_max = revenue_by_sentiment['revenue'].max() * 1.2
+    plt.ylim(top=y_max)
+
+    save_plot(fig, 'revenue_by_sentiment.png')
+
+def plot_revenue_boxplot_by_sentiment(df):
+    """Create a boxplot showing revenue distribution by sentiment category."""
+    # Create a custom color map for the sentiments
+    colors = {'Positive': '#4CAF50', 'Neutral': '#FFC107', 'Negative': '#F44336'}
+
+    # Create the figure
+    fig, ax = plt.subplots()
+
+    # Create the boxplot
+    sns.boxplot(
+        x='sentiment',
+        y='revenue',
+        data=df,
+        palette=colors,
+        width=0.5,
+        linewidth=1.5,
+        fliersize=5,
+        ax=ax
+    )
+
+    # Add individual data points with jitter for better visibility
+    sns.stripplot(
+        x='sentiment',
+        y='revenue',
+        data=df,
+        color='black',
+        size=4,
+        alpha=0.5,
+        jitter=True,
+        ax=ax
+    )
+
+    # Add median value labels
+    for i, sentiment in enumerate(df['sentiment'].unique()):
+        median_revenue = df[df['sentiment'] == sentiment]['revenue'].median()
+        ax.text(
+            i,
+            median_revenue + 5000,  # Offset for visibility
+            f'${median_revenue:,.0f}',
+            ha='center',
+            va='bottom',
+            fontsize=10,
+            fontweight='bold',
+            color='darkblue'
+        )
+
+    # Add count labels below the category names
+    for i, sentiment in enumerate(df['sentiment'].unique()):
+        count = len(df[df['sentiment'] == sentiment])
+        percentage = (count / len(df)) * 100
+        ax.text(
+            i,
+            ax.get_ylim()[0] + 1000,  # Offset from bottom
+            f'n={count} ({percentage:.1f}%)',
+            ha='center',
+            va='bottom',
+            fontsize=10,
+            color='dimgray'
+        )
+
+    # Customize the plot
+    plt.title('Revenue Distribution by Headline Sentiment', fontsize=18, pad=20)
+    plt.ylabel('Revenue ($)', fontsize=14)
+    plt.xlabel('Sentiment Category', fontsize=14)
+
+    # Add grid lines for better readability
+    plt.grid(axis='y', linestyle='--', alpha=0.7)
+
+    # Use linear scale for y-axis
+    # Set y-axis limits to focus on the main distribution (excluding extreme outliers)
+    # Calculate the 95th percentile as the upper limit to exclude extreme outliers
+    upper_limit = df['revenue'].quantile(0.95)
+    plt.ylim(0, upper_limit * 1.1)  # Add 10% padding at the top
+
+    # Add a horizontal line at the overall median revenue
+    median_revenue = df['revenue'].median()
+    plt.axhline(y=median_revenue, color='gray', linestyle='--', linewidth=1.5, alpha=0.7)
+    plt.text(
+        ax.get_xlim()[1] - 0.1,
+        median_revenue,
+        f'Overall Median: ${median_revenue:,.0f}',
+        ha='right',
+        va='bottom',
+        fontsize=10,
+        fontweight='bold',
+        color='gray'
+    )
+
+    # Add a note about outliers
+    plt.figtext(
+        0.5, 0.01,
+        f"Note: Plot is limited to the 95th percentile (${upper_limit:,.0f}). Some outliers above this value are not shown.",
+        ha='center',
+        fontsize=9,
+        color='dimgray',
+        style='italic'
+    )
+
+    save_plot(fig, 'revenue_boxplot_by_sentiment.png')
+
 def main():
     """Main function to generate all visualizations."""
     print("Loading and validating data...")
@@ -376,6 +545,8 @@ def main():
     plot_sentiment_components(df)
     plot_sentiment_boxplot(df)
     plot_top_headlines(df, n=5)
+    plot_revenue_by_sentiment(df)
+    plot_revenue_boxplot_by_sentiment(df)
 
     print(f"\nAll visualizations saved to the '{OUTPUT_DIR}' directory.")
 

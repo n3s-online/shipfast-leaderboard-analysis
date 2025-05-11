@@ -1,0 +1,38 @@
+Focus Analysis Report
+===================
+
+1. Overall Distribution
+----------------------
+Benefit: 44 startups (48.9%)
+Features: 46 startups (51.1%)
+
+2. Revenue Analysis
+------------------
+Total Revenue Across All Startups: $2,297,892.00
+
+Benefit Focus:
+  Count: 44 startups
+  Total Revenue: $1,142,731.00 (49.7% of all revenue)
+  Average Revenue: $25,971.16
+  Median Revenue: $5,182.50
+  Revenue Range: $248.00 to $628,895.00
+  Standard Deviation: $95,259.89
+  25th Percentile: $567.00
+  75th Percentile: $11,384.00
+  95th Percentile: $75,541.20
+
+Features Focus:
+  Count: 46 startups
+  Total Revenue: $1,155,161.00 (50.3% of all revenue)
+  Average Revenue: $25,112.20
+  Median Revenue: $3,966.00
+  Revenue Range: $212.00 to $198,673.00
+  Standard Deviation: $49,718.22
+  25th Percentile: $1,290.50
+  75th Percentile: $13,535.00
+  95th Percentile: $161,822.00
+
+3. Comparison
+------------
+Benefit-focused headlines generate $858.96 more revenue on average (3.4% higher) than feature-focused headlines.
+

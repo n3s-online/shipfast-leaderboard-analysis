@@ -22,43 +22,81 @@ OUTPUT_DIR = 'visualizations'
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 def load_data():
-    """Load data from data.json and validate it has sentiment analysis."""
+    """Load data from startups.json and validate it has sentiment analysis."""
     try:
-        with open('data.json', 'r') as file:
+        with open('startups.json', 'r') as file:
             data = json.load(file)
     except FileNotFoundError:
-        sys.exit("Error: data.json file not found.")
+        sys.exit("Error: startups.json file not found. Run sentiment_analysis.py first.")
     except json.JSONDecodeError:
-        sys.exit("Error: data.json is not a valid JSON file.")
+        sys.exit("Error: startups.json is not a valid JSON file.")
 
-    # Validate that all entries have sentiment analysis
+    # Filter out entries without headlines or sentiment analysis
+    filtered_data = []
     for i, item in enumerate(data):
         if 'headline' not in item:
-            sys.exit(f"Error: Item at index {i} is missing the 'headline' field.")
+            print(f"Skipping item at index {i} ({item.get('startup', 'Unknown')}) - missing headline")
+            continue
         if 'sentiment_analysis' not in item:
-            sys.exit(f"Error: Item at index {i} with headline '{item.get('headline', '')}' is missing sentiment analysis.")
+            print(f"Skipping item at index {i} ({item.get('startup', 'Unknown')}) - missing sentiment analysis")
+            continue
+        filtered_data.append(item)
 
+    if not filtered_data:
+        sys.exit("Error: No valid items with both headline and sentiment analysis found.")
+
+    # Validate that all entries have required sentiment analysis fields
+    for item in filtered_data:
         sentiment_analysis = item['sentiment_analysis']
         required_fields = ['sentiment', 'negative', 'neutral', 'positive', 'compound']
         for field in required_fields:
             if field not in sentiment_analysis:
                 sys.exit(f"Error: Sentiment analysis for '{item['headline']}' is missing the '{field}' field.")
 
-    return data
+    print(f"Found {len(filtered_data)} valid items with both headline and sentiment analysis")
+    return filtered_data
 
-def create_dataframe(data):
-    """Convert JSON data to a pandas DataFrame for easier analysis."""
+def create_dataframe(data, english_only=True):
+    """
+    Convert JSON data to a pandas DataFrame for easier analysis.
+
+    Args:
+        data (list): List of startup dictionaries
+        english_only (bool): If True, filter for English-only headlines
+
+    Returns:
+        pd.DataFrame: DataFrame with sentiment analysis data
+    """
+    # Filter for items with headlines and sentiment analysis
+    filtered_data = [
+        item for item in data
+        if 'headline' in item and 'sentiment_analysis' in item
+    ]
+
+    # Further filter for English-only if requested
+    if english_only:
+        filtered_data = [
+            item for item in filtered_data
+            if 'language' in item and item['language'] == 'English'
+        ]
+        print(f"Filtered to {len(filtered_data)} English headlines")
+
+    # Convert to DataFrame
     df = pd.DataFrame([
         {
             'headline': item['headline'],
+            'startup': item.get('startup', 'Unknown'),
+            'revenue': item.get('revenue', 0),
+            'language': item.get('language', 'Unknown'),
             'sentiment': item['sentiment_analysis']['sentiment'],
             'negative': item['sentiment_analysis']['negative'],
             'neutral': item['sentiment_analysis']['neutral'],
             'positive': item['sentiment_analysis']['positive'],
             'compound': item['sentiment_analysis']['compound']
         }
-        for item in data
+        for item in filtered_data
     ])
+
     return df
 
 def save_plot(fig, filename):
@@ -303,10 +341,20 @@ def main():
     print("Loading and validating data...")
     data = load_data()
 
-    print("Converting to DataFrame...")
-    df = create_dataframe(data)
+    print("Converting to DataFrame with English-only filter...")
+    df = create_dataframe(data, english_only=True)
 
-    print("Generating visualizations...")
+    if len(df) == 0:
+        print("Error: No English headlines with sentiment analysis found.")
+        return
+
+    print(f"Generating visualizations for {len(df)} English headlines...")
+
+    # Add prefix to output filenames to indicate English-only
+    global OUTPUT_DIR
+    OUTPUT_DIR = os.path.join('visualizations', 'english_only')
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
+
     plot_sentiment_distribution(df)
     plot_compound_score_histogram(df)
     plot_sentiment_components(df)

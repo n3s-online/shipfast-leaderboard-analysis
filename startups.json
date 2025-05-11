@@ -847,14 +847,14 @@
     "url": "https://dohackersknow.me/",
     "revenue": 7641,
     "maker": "https://x.com/rojack_dev",
-    "headline": "We'll Be Back Soon!",
+    "headline": "See all the data that hackers have about you.",
     "language": "English",
     "benefitKeywords": [],
     "actionVerbs": [
       "Be",
       "Back"
     ],
-    "phraseType": "question",
+    "phraseType": "statement",
     "focus": "features",
     "usesStats": false,
     "sentiment_analysis": {

@@ -56,6 +56,27 @@ def load_data():
     print(f"Found {len(filtered_data)} valid items with both headline and sentiment analysis")
     return filtered_data
 
+def extract_username_from_url(url):
+    """
+    Extract the username from a Twitter/X URL.
+
+    Args:
+        url (str): The Twitter/X URL
+
+    Returns:
+        str: The extracted username or 'Unknown' if not found
+    """
+    if not url or not isinstance(url, str):
+        return "Unknown"
+
+    # Extract username from URL like "https://x.com/username"
+    import re
+    match = re.search(r'x\.com/([^/]+)', url)
+    if match:
+        return match.group(1)
+
+    return "Unknown"
+
 def create_dataframe(data, english_only=True):
     """
     Convert JSON data to a pandas DataFrame for easier analysis.
@@ -86,6 +107,7 @@ def create_dataframe(data, english_only=True):
         {
             'headline': item['headline'],
             'startup': item.get('startup', 'Unknown'),
+            'maker': item.get('maker', ''),
             'revenue': item.get('revenue', 0),
             'language': item.get('language', 'Unknown'),
             'sentiment': item['sentiment_analysis']['sentiment'],
@@ -228,11 +250,18 @@ def plot_top_headlines(df, n=10):
 
     # If n >= 5, output a CSV file with the top 5 most negative and positive headlines
     if n >= 5:
-        # Create a DataFrame with two columns: most negative and most positive headlines
-        csv_data = pd.DataFrame({
-            'Most Negative Headlines': most_negative.head(5)['headline'].values,
-            'Most Positive Headlines': most_positive.head(5)['headline'].values
-        })
+        # Create DataFrames for negative and positive headlines with startup, maker, and headline columns
+        neg_data = most_negative.head(5)[['startup', 'maker', 'headline']].copy()
+        neg_data['sentiment'] = 'Negative'
+
+        pos_data = most_positive.head(5)[['startup', 'maker', 'headline']].copy()
+        pos_data['sentiment'] = 'Positive'
+
+        # Combine the two DataFrames
+        csv_data = pd.concat([neg_data, pos_data])
+
+        # Reorder columns to match the requested format: startup, maker, headline
+        csv_data = csv_data[['startup', 'maker', 'headline']]
 
         # Save to CSV
         csv_path = os.path.join(OUTPUT_DIR, 'top_sentiment_headlines.csv')

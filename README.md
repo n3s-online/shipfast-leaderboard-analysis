@@ -42,6 +42,8 @@ pip install -r requirements.txt
 
 ## Usage
 
+### Sentiment Analysis
+
 1. Prepare your data in one of two ways:
    - Place your text data in the `initial_data.txt` file (one statement per line), or
    - Create a `data.json` file with an array of objects containing a "headline" property
@@ -73,17 +75,48 @@ python sentiment_analysis.py
 
 Note: If `data.json` doesn't exist, the script will create it from `initial_data.txt`.
 
+### Data Visualization
+
+After running the sentiment analysis, you can generate visualizations:
+
+1. Make sure you have the required visualization libraries installed:
+
+```bash
+pip install -r requirements.txt
+```
+
+2. Run the visualization script:
+
+```bash
+python visualize_sentiment_analysis.py
+```
+
+3. The script will generate several square PNG visualizations in the `visualizations` directory:
+   - `sentiment_distribution.png` - Pie chart showing the distribution of sentiment categories
+   - `compound_score_histogram.png` - Histogram of compound sentiment scores
+   - `sentiment_components.png` - Bar chart of average positive, neutral, and negative scores
+   - `sentiment_boxplot.png` - Box plot showing the distribution of compound scores
+   - `most_positive_headlines.png` - Bar chart of the most positive headlines
+   - `most_negative_headlines.png` - Bar chart of the most negative headlines
+
+Note: The visualization script will throw an error if any object in `data.json` is missing sentiment analysis data.
+
 ## Project Structure
 
 - `sentiment_analysis.py` - Main script for analyzing sentiment
+- `visualize_sentiment_analysis.py` - Script for generating data visualizations
 - `initial_data.txt` - Input file containing text to analyze
 - `data.json` - JSON file with headlines and sentiment analysis results
+- `visualizations/` - Directory containing generated visualization images
 - `requirements.txt` - List of Python dependencies
 - `README.md` - This documentation file
 
 ## Dependencies
 
 - NLTK - Natural Language Toolkit for sentiment analysis
+- Matplotlib - Data visualization library
+- Seaborn - Statistical data visualization
+- Pandas - Data manipulation and analysis
 
 ## License
 

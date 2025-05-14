@@ -1,33 +1,35 @@
 ### Tweet 1
-I analyzed the landing page headlines of the top 100 startups on @marc_lou's ShipFast leaderboard.
+Your SaaS's headline is the first thing most customers will see.
 
-Collectively, they make $2.7M+ in revenue.
+I dissected the top 100 startups on @marc_louvion's ShipFast leaderboard (collectively $2.7 M+ ARR) to uncover the headline formulas that convert.
 
- Full thread with learnings, common themes, and 100 headline examples for YC’s Request for Startups  👇
+Full thread with takeaways and 100 headline examples👇
 
 ![ShipFast leaderboard](visualizations/leaderboard-screenshot.png)
 ![Takeaways](visualizations/takeaways-blur.png)
 ### Tweet 2
+Be confident but realistic about your product. Include industry trends.
+
 Out of the 81 English headlines from top 100 startups, only 8 words showed up more than twice:
 
-6x — build, ai
-4x — app, videos, minutes, startup
-3x — idea, boost
+6x: build, ai
+4x: app, videos, minutes, startup
+3x: idea, boost
 
-Learnings:
-1. “Minutes” and “seconds” beat “instantly” — believable speed > magic, don't market as too good to be true
-2. “AI” still dominates
+"Minutes" > "Instantly" (its more believable)
+
 ![Word cloud of English headlines](visualizations/english_headline_wordcloud.png)
 ### Tweet 3
+Data shows that the majority of successful headlines are neutral, and the rest are positive.
+
 I ran sentiment analysis on the 81 English startup headlines:
 - 59% neutral
 - 35% positive
 - 6% negative
 
-Positive headlines drive the most revenue on average.
-Negative headlines have the highest _median_ revenue.
-
-What should you do? It seems like the data leans towards neutral headlines (leaning positive) having the best odds of success. Don't over-sell your product or market via fear.
+Don't over-sell your product.
+Don't market via fear.
+Be realistic.
 
 ![Sentiment distribution pie chart](visualizations/english_only/sentiment_distribution.png)
 ![Revenue by sentiment bar chart](visualizations/english_only/revenue_by_sentiment.png)
@@ -37,17 +39,19 @@ The most positive landing page headlines:
 - "Craft Stunning Grids. Showcase Rich and Beautiful." - https://www.gridwow.me @joanboschpons ($1,171)
 - "Create Stunning Videos Instantly with a Single Prompt." - https://www.bityclips.com @shibley ($11,286)
 
-
+(inlcude screenshots of headlines)
 ### Tweet 5
 The most negative landing page headlines:
 - "Stop losing money gambling, start investing" - https://arbi.chat @paletmiki ($49,387)
 - "Don't let a dispute get you banned from Stripe" - https://byedispute.com/ @marc_louvion ($5,748)
+
+(include screenshots of headlines)
 ### Tweet 6
-Obvious but confirmed: none of the top 100 ShipFast startups used a question as their headline. Every single one was a statement.
+Use statements, not questions. 
+Statements project authority, questions invite doubt.
 
-Questions create doubt.
+ZERO of the top 100 ShipFast startups used a question as their headline. Every single one was a statement.
 
-Statements build authority.
 ### Tweet 7
 I asked ChatGPT to label each headline as either feature-focused (e.g. “Generate videos with AI”) or benefit-focused (e.g. “Grow faster with AI-generated videos”).
 
@@ -68,11 +72,11 @@ Speed, clarity, and outcomes dominate.
 ![Top benefit keywords](visualizations/metadata/top_benefit_keywords.png)
 
 ### Tweet 9
+Data usually beats opinion - but not when its in the headline.
+
 I had ChatGPT identify which headlines included statistics  (ex: "46% of Google Search is Local" - https://shiplocal.directory @mattmerrick16 $2,346).
 
 Only 6 of the top 100 used statistics. On average, they made 80% less revenue than those that didn’t.
-
-Data usually beats opinion - but not when its in the headline.
 
 ![Statistics usage distribution](visualizations/stats_analysis/stats_distribution.png)
 ![Revenue by statistics usage](visualizations/stats_analysis/revenue_by_stats.png)

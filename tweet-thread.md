@@ -10,9 +10,9 @@ Collectively, they make $2.7M+ in revenue.
 ### Tweet 2
 Out of the 81 English headlines from top 100 startups, only 8 words showed up more than twice:
 
-6× — build, ai
-4× — app, videos, minutes, startup
-3× — idea, boost
+6x — build, ai
+4x — app, videos, minutes, startup
+3x — idea, boost
 
 Learnings:
 1. “Minutes” and “seconds” beat “instantly” — believable speed > magic, don't market as too good to be true

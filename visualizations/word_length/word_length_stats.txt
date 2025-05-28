@@ -1,0 +1,31 @@
+HEADLINE WORD LENGTH ANALYSIS SUMMARY
+========================================
+
+Total headlines analyzed: 81
+Mean word count: 6.60
+Median word count: 7.00
+Standard deviation: 2.48
+Min word count: 2
+Max word count: 14
+
+Word count distribution:
+  2 words: 2 headlines (2.5%)
+  3 words: 8 headlines (9.9%)
+  4 words: 6 headlines (7.4%)
+  5 words: 9 headlines (11.1%)
+  6 words: 14 headlines (17.3%)
+  7 words: 17 headlines (21.0%)
+  8 words: 11 headlines (13.6%)
+  9 words: 6 headlines (7.4%)
+  10 words: 3 headlines (3.7%)
+  11 words: 1 headlines (1.2%)
+  12 words: 1 headlines (1.2%)
+  13 words: 2 headlines (2.5%)
+  14 words: 1 headlines (1.2%)
+
+Correlation with revenue: 0.070
+
+Average word count by revenue range:
+  Low ($0-$50k): 6.55 words
+  Medium ($50k-$150k): 7.60 words
+  High ($150k+): 6.40 words

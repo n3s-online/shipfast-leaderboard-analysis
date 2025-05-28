@@ -72,6 +72,18 @@ Speed, clarity, and outcomes dominate.
 ![Top benefit keywords](visualizations/metadata/top_benefit_keywords.png)
 
 ### Tweet 9
+The sweet spot for headline length? 7 words.
+
+I analyzed word count across all 81 English headlines:
+- 21% used exactly 7 words (most common)
+- Average: 6.6 words
+- Range: 2-14 words
+
+Shorter headlines dominate. Keep it concise.
+
+![Most common headline word counts](visualizations/word_length/top_word_counts.png)
+
+### Tweet 10
 Data usually beats opinion - but not when its in the headline.
 
 I had ChatGPT identify which headlines included statistics  (ex: "46% of Google Search is Local" - https://shiplocal.directory @mattmerrick16 $2,346).
@@ -81,7 +93,7 @@ Only 6 of the top 100 used statistics. On average, they made 80% less revenue th
 ![Statistics usage distribution](visualizations/stats_analysis/stats_distribution.png)
 ![Revenue by statistics usage](visualizations/stats_analysis/revenue_by_stats.png)
 
-### Tweet 10
+### Tweet 11
 Theme 1: Speed and Simplicity
 
 Headlines that sell ease and speed
@@ -90,7 +102,7 @@ Headlines that sell ease and speed
 - "Idea to viral videos in 2 minutes."
 - "Schedule your content everywhere in seconds"
 
-### Tweet 11
+### Tweet 12
 Theme 2: Niche Targeting
 
 Specificity wins trust
@@ -99,7 +111,7 @@ Specificity wins trust
 - "Digital collaborative checklists for dentists and their teams"
 - "SwiftUI App Development with Secure AI Integration
 
-### Tweet 12
+### Tweet 13
 Theme 3: Functional Clarity
 
 No fluff, just direct value
@@ -108,14 +120,14 @@ No fluff, just direct value
 - "Submit Your Startup to 100+ Directories"
 - "Translate Youtube Videos, Get Captions, Subtitles"
 
-### Tweet 13
+### Tweet 14
 Takeaways from analyzing 100 startup headlines making $2.7M+ in revenue:
 
 The best headlines are clear promises delivered with confidence.
 
 ![Takeaways](visualizations/takeaways.png)
 
-### Tweet 14
+### Tweet 15
 I took the top 25 headlines and used them to set up a multi-shot prompt to generate headlines for landing pages for all of the 'Request For Startup' ideas from Y Combinator.
 
 Results here:
